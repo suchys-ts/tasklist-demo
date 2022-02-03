@@ -1,0 +1,27 @@
+version: "3.7"
+services:
+  todo_server:
+    image: todo_server:latest
+    container_name: todo_server
+    restart: unless-stopped
+    ports:
+      - 19999:19999
+    networks:
+      app:
+        aliases:
+          - server
+
+  todo_frontend:
+    image: todo_client_proxy:latest
+    container_name: todo_client_proxy
+    restart: unless-stopped
+    ports:
+      - 80:80
+    networks:
+      - app
+    depends_on:
+      - todo_server
+
+networks:
+  app:
+    driver: bridge

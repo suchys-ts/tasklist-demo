@@ -1,0 +1,3248 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test add todo Dialog renders with defaults 1`] = `
+<ThemeProvider
+  theme={
+    Object {
+      "breakpoints": Object {
+        "between": [Function],
+        "down": [Function],
+        "keys": Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ],
+        "not": [Function],
+        "only": [Function],
+        "unit": "px",
+        "up": [Function],
+        "values": Object {
+          "lg": 1200,
+          "md": 900,
+          "sm": 600,
+          "xl": 1536,
+          "xs": 0,
+        },
+      },
+      "components": Object {},
+      "direction": "ltr",
+      "mixins": Object {
+        "toolbar": Object {
+          "@media (min-width:0px) and (orientation: landscape)": Object {
+            "minHeight": 48,
+          },
+          "@media (min-width:600px)": Object {
+            "minHeight": 64,
+          },
+          "minHeight": 56,
+        },
+      },
+      "palette": Object {
+        "action": Object {
+          "activatedOpacity": 0.12,
+          "active": "rgba(0, 0, 0, 0.54)",
+          "disabled": "rgba(0, 0, 0, 0.26)",
+          "disabledBackground": "rgba(0, 0, 0, 0.12)",
+          "disabledOpacity": 0.38,
+          "focus": "rgba(0, 0, 0, 0.12)",
+          "focusOpacity": 0.12,
+          "hover": "rgba(0, 0, 0, 0.04)",
+          "hoverOpacity": 0.04,
+          "selected": "rgba(0, 0, 0, 0.08)",
+          "selectedOpacity": 0.08,
+        },
+        "augmentColor": [Function],
+        "background": Object {
+          "default": "#fff",
+          "paper": "#fff",
+        },
+        "common": Object {
+          "black": "#000",
+          "white": "#fff",
+        },
+        "contrastThreshold": 3,
+        "divider": "rgba(0, 0, 0, 0.12)",
+        "error": Object {
+          "contrastText": "#fff",
+          "dark": "#c62828",
+          "light": "#ef5350",
+          "main": "#d32f2f",
+        },
+        "getContrastText": [Function],
+        "grey": Object {
+          "100": "#f5f5f5",
+          "200": "#eeeeee",
+          "300": "#e0e0e0",
+          "400": "#bdbdbd",
+          "50": "#fafafa",
+          "500": "#9e9e9e",
+          "600": "#757575",
+          "700": "#616161",
+          "800": "#424242",
+          "900": "#212121",
+          "A100": "#f5f5f5",
+          "A200": "#eeeeee",
+          "A400": "#bdbdbd",
+          "A700": "#616161",
+        },
+        "info": Object {
+          "contrastText": "#fff",
+          "dark": "#01579b",
+          "light": "#03a9f4",
+          "main": "#0288d1",
+        },
+        "mode": "light",
+        "primary": Object {
+          "contrastText": "#fff",
+          "dark": "#1565c0",
+          "light": "#42a5f5",
+          "main": "#1976d2",
+        },
+        "secondary": Object {
+          "contrastText": "#fff",
+          "dark": "#7b1fa2",
+          "light": "#ba68c8",
+          "main": "#9c27b0",
+        },
+        "success": Object {
+          "contrastText": "#fff",
+          "dark": "#1b5e20",
+          "light": "#4caf50",
+          "main": "#2e7d32",
+        },
+        "text": Object {
+          "disabled": "rgba(0, 0, 0, 0.38)",
+          "primary": "rgba(0, 0, 0, 0.87)",
+          "secondary": "rgba(0, 0, 0, 0.6)",
+        },
+        "tonalOffset": 0.2,
+        "warning": Object {
+          "contrastText": "#fff",
+          "dark": "#e65100",
+          "light": "#ff9800",
+          "main": "#ed6c02",
+        },
+      },
+      "shadows": Array [
+        "none",
+        "0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12)",
+        "0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12)",
+        "0px 3px 3px -2px rgba(0,0,0,0.2),0px 3px 4px 0px rgba(0,0,0,0.14),0px 1px 8px 0px rgba(0,0,0,0.12)",
+        "0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12)",
+        "0px 3px 5px -1px rgba(0,0,0,0.2),0px 5px 8px 0px rgba(0,0,0,0.14),0px 1px 14px 0px rgba(0,0,0,0.12)",
+        "0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12)",
+        "0px 4px 5px -2px rgba(0,0,0,0.2),0px 7px 10px 1px rgba(0,0,0,0.14),0px 2px 16px 1px rgba(0,0,0,0.12)",
+        "0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12)",
+        "0px 5px 6px -3px rgba(0,0,0,0.2),0px 9px 12px 1px rgba(0,0,0,0.14),0px 3px 16px 2px rgba(0,0,0,0.12)",
+        "0px 6px 6px -3px rgba(0,0,0,0.2),0px 10px 14px 1px rgba(0,0,0,0.14),0px 4px 18px 3px rgba(0,0,0,0.12)",
+        "0px 6px 7px -4px rgba(0,0,0,0.2),0px 11px 15px 1px rgba(0,0,0,0.14),0px 4px 20px 3px rgba(0,0,0,0.12)",
+        "0px 7px 8px -4px rgba(0,0,0,0.2),0px 12px 17px 2px rgba(0,0,0,0.14),0px 5px 22px 4px rgba(0,0,0,0.12)",
+        "0px 7px 8px -4px rgba(0,0,0,0.2),0px 13px 19px 2px rgba(0,0,0,0.14),0px 5px 24px 4px rgba(0,0,0,0.12)",
+        "0px 7px 9px -4px rgba(0,0,0,0.2),0px 14px 21px 2px rgba(0,0,0,0.14),0px 5px 26px 4px rgba(0,0,0,0.12)",
+        "0px 8px 9px -5px rgba(0,0,0,0.2),0px 15px 22px 2px rgba(0,0,0,0.14),0px 6px 28px 5px rgba(0,0,0,0.12)",
+        "0px 8px 10px -5px rgba(0,0,0,0.2),0px 16px 24px 2px rgba(0,0,0,0.14),0px 6px 30px 5px rgba(0,0,0,0.12)",
+        "0px 8px 11px -5px rgba(0,0,0,0.2),0px 17px 26px 2px rgba(0,0,0,0.14),0px 6px 32px 5px rgba(0,0,0,0.12)",
+        "0px 9px 11px -5px rgba(0,0,0,0.2),0px 18px 28px 2px rgba(0,0,0,0.14),0px 7px 34px 6px rgba(0,0,0,0.12)",
+        "0px 9px 12px -6px rgba(0,0,0,0.2),0px 19px 29px 2px rgba(0,0,0,0.14),0px 7px 36px 6px rgba(0,0,0,0.12)",
+        "0px 10px 13px -6px rgba(0,0,0,0.2),0px 20px 31px 3px rgba(0,0,0,0.14),0px 8px 38px 7px rgba(0,0,0,0.12)",
+        "0px 10px 13px -6px rgba(0,0,0,0.2),0px 21px 33px 3px rgba(0,0,0,0.14),0px 8px 40px 7px rgba(0,0,0,0.12)",
+        "0px 10px 14px -6px rgba(0,0,0,0.2),0px 22px 35px 3px rgba(0,0,0,0.14),0px 8px 42px 7px rgba(0,0,0,0.12)",
+        "0px 11px 14px -7px rgba(0,0,0,0.2),0px 23px 36px 3px rgba(0,0,0,0.14),0px 9px 44px 8px rgba(0,0,0,0.12)",
+        "0px 11px 15px -7px rgba(0,0,0,0.2),0px 24px 38px 3px rgba(0,0,0,0.14),0px 9px 46px 8px rgba(0,0,0,0.12)",
+      ],
+      "shape": Object {
+        "borderRadius": 4,
+      },
+      "spacing": [Function],
+      "transitions": Object {
+        "create": [Function],
+        "duration": Object {
+          "complex": 375,
+          "enteringScreen": 225,
+          "leavingScreen": 195,
+          "short": 250,
+          "shorter": 200,
+          "shortest": 150,
+          "standard": 300,
+        },
+        "easing": Object {
+          "easeIn": "cubic-bezier(0.4, 0, 1, 1)",
+          "easeInOut": "cubic-bezier(0.4, 0, 0.2, 1)",
+          "easeOut": "cubic-bezier(0.0, 0, 0.2, 1)",
+          "sharp": "cubic-bezier(0.4, 0, 0.6, 1)",
+        },
+        "getAutoHeightDuration": [Function],
+      },
+      "typography": Object {
+        "body1": Object {
+          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+          "fontSize": "1rem",
+          "fontWeight": 400,
+          "letterSpacing": "0.00938em",
+          "lineHeight": 1.5,
+        },
+        "body2": Object {
+          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+          "fontSize": "0.875rem",
+          "fontWeight": 400,
+          "letterSpacing": "0.01071em",
+          "lineHeight": 1.43,
+        },
+        "button": Object {
+          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+          "fontSize": "0.875rem",
+          "fontWeight": 500,
+          "letterSpacing": "0.02857em",
+          "lineHeight": 1.75,
+          "textTransform": "uppercase",
+        },
+        "caption": Object {
+          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+          "fontSize": "0.75rem",
+          "fontWeight": 400,
+          "letterSpacing": "0.03333em",
+          "lineHeight": 1.66,
+        },
+        "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+        "fontSize": 14,
+        "fontWeightBold": 700,
+        "fontWeightLight": 300,
+        "fontWeightMedium": 500,
+        "fontWeightRegular": 400,
+        "h1": Object {
+          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+          "fontSize": "6rem",
+          "fontWeight": 300,
+          "letterSpacing": "-0.01562em",
+          "lineHeight": 1.167,
+        },
+        "h2": Object {
+          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+          "fontSize": "3.75rem",
+          "fontWeight": 300,
+          "letterSpacing": "-0.00833em",
+          "lineHeight": 1.2,
+        },
+        "h3": Object {
+          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+          "fontSize": "3rem",
+          "fontWeight": 400,
+          "letterSpacing": "0em",
+          "lineHeight": 1.167,
+        },
+        "h4": Object {
+          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+          "fontSize": "2.125rem",
+          "fontWeight": 400,
+          "letterSpacing": "0.00735em",
+          "lineHeight": 1.235,
+        },
+        "h5": Object {
+          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+          "fontSize": "1.5rem",
+          "fontWeight": 400,
+          "letterSpacing": "0em",
+          "lineHeight": 1.334,
+        },
+        "h6": Object {
+          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+          "fontSize": "1.25rem",
+          "fontWeight": 500,
+          "letterSpacing": "0.0075em",
+          "lineHeight": 1.6,
+        },
+        "htmlFontSize": 16,
+        "overline": Object {
+          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+          "fontSize": "0.75rem",
+          "fontWeight": 400,
+          "letterSpacing": "0.08333em",
+          "lineHeight": 2.66,
+          "textTransform": "uppercase",
+        },
+        "pxToRem": [Function],
+        "subtitle1": Object {
+          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+          "fontSize": "1rem",
+          "fontWeight": 400,
+          "letterSpacing": "0.00938em",
+          "lineHeight": 1.75,
+        },
+        "subtitle2": Object {
+          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+          "fontSize": "0.875rem",
+          "fontWeight": 500,
+          "letterSpacing": "0.00714em",
+          "lineHeight": 1.57,
+        },
+      },
+      "zIndex": Object {
+        "appBar": 1100,
+        "drawer": 1200,
+        "mobileStepper": 1000,
+        "modal": 1300,
+        "snackbar": 1400,
+        "speedDial": 1050,
+        "tooltip": 1500,
+      },
+      Symbol(mui.nested): false,
+    }
+  }
+>
+  <AddToDo
+    onClose={[MockFunction]}
+  >
+    <ForwardRef(Paper)
+      className="makeStyles-addNewPaper-1"
+      elevation={1}
+      sx={
+        Object {
+          "flexGrow": 1,
+        }
+      }
+    >
+      <MuiPaperRoot
+        as="div"
+        className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 makeStyles-addNewPaper-1"
+        ownerState={
+          Object {
+            "children": <ForwardRef(Grid)
+              alignItems="stretch"
+              className="makeStyles-newItemContainer-2"
+              container={true}
+              direction="column"
+              item={true}
+              xs={12}
+            >
+              <ForwardRef(Grid)
+                alignSelf="center"
+                item={true}
+              >
+                <ForwardRef(Typography)
+                  className="makeStyles-subText-3"
+                  variant="h6"
+                >
+                  Add task
+                </ForwardRef(Typography)>
+              </ForwardRef(Grid)>
+              <ForwardRef(Grid)
+                alignSelf="start"
+                item={true}
+              >
+                <ForwardRef(Typography)
+                  className="makeStyles-descriptionText-4"
+                  variant="h6"
+                >
+                  Description
+                </ForwardRef(Typography)>
+              </ForwardRef(Grid)>
+              <ForwardRef(Grid)
+                item={true}
+              >
+                <ForwardRef(TextField)
+                  fullWidth={true}
+                  id="description"
+                  onChange={[Function]}
+                  value=""
+                  variant="outlined"
+                />
+              </ForwardRef(Grid)>
+              <ForwardRef(Grid)
+                alignSelf="start"
+                item={true}
+              >
+                <ForwardRef(Typography)
+                  className="makeStyles-descriptionText-4"
+                  variant="h6"
+                >
+                  Date
+                </ForwardRef(Typography)>
+              </ForwardRef(Grid)>
+              <ForwardRef(Grid)
+                item={true}
+              >
+                <LocalizationProvider
+                  dateAdapter={[Function]}
+                >
+                  <ForwardRef(DatePicker)
+                    disablePast={true}
+                    onChange={[Function]}
+                    onError={[Function]}
+                    openTo="year"
+                    renderInput={[Function]}
+                    value={null}
+                    views={
+                      Array [
+                        "year",
+                        "month",
+                        "day",
+                      ]
+                    }
+                  />
+                </LocalizationProvider>
+              </ForwardRef(Grid)>
+              <ForwardRef(Grid)
+                alignSelf="flex-end"
+                className="makeStyles-button-5"
+                item={true}
+              >
+                <ForwardRef(Button)
+                  disabled={true}
+                  id="save"
+                  onClick={[Function]}
+                  variant="contained"
+                >
+                  Save
+                </ForwardRef(Button)>
+              </ForwardRef(Grid)>
+            </ForwardRef(Grid)>,
+            "className": "makeStyles-addNewPaper-1",
+            "component": "div",
+            "elevation": 1,
+            "square": false,
+            "sx": Object {
+              "flexGrow": 1,
+            },
+            "variant": "elevation",
+          }
+        }
+        sx={
+          Object {
+            "flexGrow": 1,
+          }
+        }
+      >
+        <Noop />
+        <div
+          className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 makeStyles-addNewPaper-1 css-y7jnfg-MuiPaper-root"
+        >
+          <ForwardRef(Grid)
+            alignItems="stretch"
+            className="makeStyles-newItemContainer-2"
+            container={true}
+            direction="column"
+            item={true}
+            xs={12}
+          >
+            <MuiGridRoot
+              as="div"
+              className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-12 makeStyles-newItemContainer-2"
+              ownerState={
+                Object {
+                  "children": Array [
+                    <ForwardRef(Grid)
+                      alignSelf="center"
+                      item={true}
+                    >
+                      <ForwardRef(Typography)
+                        className="makeStyles-subText-3"
+                        variant="h6"
+                      >
+                        Add task
+                      </ForwardRef(Typography)>
+                    </ForwardRef(Grid)>,
+                    <ForwardRef(Grid)
+                      alignSelf="start"
+                      item={true}
+                    >
+                      <ForwardRef(Typography)
+                        className="makeStyles-descriptionText-4"
+                        variant="h6"
+                      >
+                        Description
+                      </ForwardRef(Typography)>
+                    </ForwardRef(Grid)>,
+                    <ForwardRef(Grid)
+                      item={true}
+                    >
+                      <ForwardRef(TextField)
+                        fullWidth={true}
+                        id="description"
+                        onChange={[Function]}
+                        value=""
+                        variant="outlined"
+                      />
+                    </ForwardRef(Grid)>,
+                    <ForwardRef(Grid)
+                      alignSelf="start"
+                      item={true}
+                    >
+                      <ForwardRef(Typography)
+                        className="makeStyles-descriptionText-4"
+                        variant="h6"
+                      >
+                        Date
+                      </ForwardRef(Typography)>
+                    </ForwardRef(Grid)>,
+                    <ForwardRef(Grid)
+                      item={true}
+                    >
+                      <LocalizationProvider
+                        dateAdapter={[Function]}
+                      >
+                        <ForwardRef(DatePicker)
+                          disablePast={true}
+                          onChange={[Function]}
+                          onError={[Function]}
+                          openTo="year"
+                          renderInput={[Function]}
+                          value={null}
+                          views={
+                            Array [
+                              "year",
+                              "month",
+                              "day",
+                            ]
+                          }
+                        />
+                      </LocalizationProvider>
+                    </ForwardRef(Grid)>,
+                    <ForwardRef(Grid)
+                      alignSelf="flex-end"
+                      className="makeStyles-button-5"
+                      item={true}
+                    >
+                      <ForwardRef(Button)
+                        disabled={true}
+                        id="save"
+                        onClick={[Function]}
+                        variant="contained"
+                      >
+                        Save
+                      </ForwardRef(Button)>
+                    </ForwardRef(Grid)>,
+                  ],
+                  "className": "makeStyles-newItemContainer-2",
+                  "columnSpacing": 0,
+                  "columns": 12,
+                  "container": true,
+                  "direction": "column",
+                  "item": true,
+                  "lg": false,
+                  "md": false,
+                  "rowSpacing": 0,
+                  "sm": false,
+                  "sx": Object {
+                    "alignItems": "stretch",
+                  },
+                  "wrap": "wrap",
+                  "xl": false,
+                  "xs": 12,
+                  "zeroMinWidth": false,
+                }
+              }
+              sx={
+                Object {
+                  "alignItems": "stretch",
+                }
+              }
+            >
+              <Noop />
+              <div
+                className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-12 makeStyles-newItemContainer-2 css-e40x2h-MuiGrid-root"
+              >
+                <ForwardRef(Grid)
+                  alignSelf="center"
+                  item={true}
+                >
+                  <MuiGridRoot
+                    as="div"
+                    className="MuiGrid-root MuiGrid-item"
+                    ownerState={
+                      Object {
+                        "children": <ForwardRef(Typography)
+                          className="makeStyles-subText-3"
+                          variant="h6"
+                        >
+                          Add task
+                        </ForwardRef(Typography)>,
+                        "columnSpacing": 0,
+                        "columns": 12,
+                        "container": false,
+                        "direction": "row",
+                        "item": true,
+                        "lg": false,
+                        "md": false,
+                        "rowSpacing": 0,
+                        "sm": false,
+                        "sx": Object {
+                          "alignSelf": "center",
+                        },
+                        "wrap": "wrap",
+                        "xl": false,
+                        "xs": false,
+                        "zeroMinWidth": false,
+                      }
+                    }
+                    sx={
+                      Object {
+                        "alignSelf": "center",
+                      }
+                    }
+                  >
+                    <Noop />
+                    <div
+                      className="MuiGrid-root MuiGrid-item css-131xi47-MuiGrid-root"
+                    >
+                      <ForwardRef(Typography)
+                        className="makeStyles-subText-3"
+                        variant="h6"
+                      >
+                        <MuiTypographyRoot
+                          as="h6"
+                          className="MuiTypography-root MuiTypography-h6 makeStyles-subText-3"
+                          ownerState={
+                            Object {
+                              "align": "inherit",
+                              "children": "Add task",
+                              "className": "makeStyles-subText-3",
+                              "color": undefined,
+                              "component": undefined,
+                              "gutterBottom": false,
+                              "noWrap": false,
+                              "paragraph": false,
+                              "sx": Object {
+                                "color": undefined,
+                              },
+                              "variant": "h6",
+                              "variantMapping": Object {
+                                "body1": "p",
+                                "body2": "p",
+                                "h1": "h1",
+                                "h2": "h2",
+                                "h3": "h3",
+                                "h4": "h4",
+                                "h5": "h5",
+                                "h6": "h6",
+                                "inherit": "p",
+                                "subtitle1": "h6",
+                                "subtitle2": "h6",
+                              },
+                            }
+                          }
+                          sx={
+                            Object {
+                              "color": undefined,
+                            }
+                          }
+                        >
+                          <Noop />
+                          <h6
+                            className="MuiTypography-root MuiTypography-h6 makeStyles-subText-3 css-2ulfj5-MuiTypography-root"
+                          >
+                            Add task
+                          </h6>
+                        </MuiTypographyRoot>
+                      </ForwardRef(Typography)>
+                    </div>
+                  </MuiGridRoot>
+                </ForwardRef(Grid)>
+                <ForwardRef(Grid)
+                  alignSelf="start"
+                  item={true}
+                >
+                  <MuiGridRoot
+                    as="div"
+                    className="MuiGrid-root MuiGrid-item"
+                    ownerState={
+                      Object {
+                        "children": <ForwardRef(Typography)
+                          className="makeStyles-descriptionText-4"
+                          variant="h6"
+                        >
+                          Description
+                        </ForwardRef(Typography)>,
+                        "columnSpacing": 0,
+                        "columns": 12,
+                        "container": false,
+                        "direction": "row",
+                        "item": true,
+                        "lg": false,
+                        "md": false,
+                        "rowSpacing": 0,
+                        "sm": false,
+                        "sx": Object {
+                          "alignSelf": "start",
+                        },
+                        "wrap": "wrap",
+                        "xl": false,
+                        "xs": false,
+                        "zeroMinWidth": false,
+                      }
+                    }
+                    sx={
+                      Object {
+                        "alignSelf": "start",
+                      }
+                    }
+                  >
+                    <Noop />
+                    <div
+                      className="MuiGrid-root MuiGrid-item css-f35e3u-MuiGrid-root"
+                    >
+                      <ForwardRef(Typography)
+                        className="makeStyles-descriptionText-4"
+                        variant="h6"
+                      >
+                        <MuiTypographyRoot
+                          as="h6"
+                          className="MuiTypography-root MuiTypography-h6 makeStyles-descriptionText-4"
+                          ownerState={
+                            Object {
+                              "align": "inherit",
+                              "children": "Description",
+                              "className": "makeStyles-descriptionText-4",
+                              "color": undefined,
+                              "component": undefined,
+                              "gutterBottom": false,
+                              "noWrap": false,
+                              "paragraph": false,
+                              "sx": Object {
+                                "color": undefined,
+                              },
+                              "variant": "h6",
+                              "variantMapping": Object {
+                                "body1": "p",
+                                "body2": "p",
+                                "h1": "h1",
+                                "h2": "h2",
+                                "h3": "h3",
+                                "h4": "h4",
+                                "h5": "h5",
+                                "h6": "h6",
+                                "inherit": "p",
+                                "subtitle1": "h6",
+                                "subtitle2": "h6",
+                              },
+                            }
+                          }
+                          sx={
+                            Object {
+                              "color": undefined,
+                            }
+                          }
+                        >
+                          <Noop />
+                          <h6
+                            className="MuiTypography-root MuiTypography-h6 makeStyles-descriptionText-4 css-2ulfj5-MuiTypography-root"
+                          >
+                            Description
+                          </h6>
+                        </MuiTypographyRoot>
+                      </ForwardRef(Typography)>
+                    </div>
+                  </MuiGridRoot>
+                </ForwardRef(Grid)>
+                <ForwardRef(Grid)
+                  item={true}
+                >
+                  <MuiGridRoot
+                    as="div"
+                    className="MuiGrid-root MuiGrid-item"
+                    ownerState={
+                      Object {
+                        "children": <ForwardRef(TextField)
+                          fullWidth={true}
+                          id="description"
+                          onChange={[Function]}
+                          value=""
+                          variant="outlined"
+                        />,
+                        "columnSpacing": 0,
+                        "columns": 12,
+                        "container": false,
+                        "direction": "row",
+                        "item": true,
+                        "lg": false,
+                        "md": false,
+                        "rowSpacing": 0,
+                        "sm": false,
+                        "sx": Object {},
+                        "wrap": "wrap",
+                        "xl": false,
+                        "xs": false,
+                        "zeroMinWidth": false,
+                      }
+                    }
+                    sx={Object {}}
+                  >
+                    <Noop />
+                    <div
+                      className="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+                    >
+                      <ForwardRef(TextField)
+                        fullWidth={true}
+                        id="description"
+                        onChange={[Function]}
+                        value=""
+                        variant="outlined"
+                      >
+                        <MuiTextFieldRoot
+                          className="MuiTextField-root"
+                          color="primary"
+                          disabled={false}
+                          error={false}
+                          fullWidth={true}
+                          ownerState={
+                            Object {
+                              "autoFocus": false,
+                              "color": "primary",
+                              "disabled": false,
+                              "error": false,
+                              "fullWidth": true,
+                              "id": "description",
+                              "multiline": false,
+                              "onChange": [Function],
+                              "required": false,
+                              "select": false,
+                              "value": "",
+                              "variant": "outlined",
+                            }
+                          }
+                          required={false}
+                          variant="outlined"
+                        >
+                          <Noop />
+                          <ForwardRef(FormControl)
+                            className="MuiTextField-root css-1xj1k15-MuiTextField-root"
+                            color="primary"
+                            disabled={false}
+                            error={false}
+                            fullWidth={true}
+                            required={false}
+                            variant="outlined"
+                          >
+                            <MuiFormControlRoot
+                              as="div"
+                              className="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-1xj1k15-MuiTextField-root"
+                              ownerState={
+                                Object {
+                                  "children": Array [
+                                    undefined,
+                                    <ForwardRef(OutlinedInput)
+                                      autoFocus={false}
+                                      fullWidth={true}
+                                      id="description"
+                                      multiline={false}
+                                      onChange={[Function]}
+                                      value=""
+                                    />,
+                                    undefined,
+                                  ],
+                                  "className": "MuiTextField-root css-1xj1k15-MuiTextField-root",
+                                  "color": "primary",
+                                  "component": "div",
+                                  "disabled": false,
+                                  "error": false,
+                                  "fullWidth": true,
+                                  "hiddenLabel": false,
+                                  "margin": "none",
+                                  "required": false,
+                                  "size": "medium",
+                                  "variant": "outlined",
+                                }
+                              }
+                            >
+                              <Noop />
+                              <div
+                                className="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-wb57ya-MuiFormControl-root-MuiTextField-root"
+                              >
+                                <ForwardRef(OutlinedInput)
+                                  autoFocus={false}
+                                  fullWidth={true}
+                                  id="description"
+                                  multiline={false}
+                                  onChange={[Function]}
+                                  value=""
+                                >
+                                  <ForwardRef(InputBase)
+                                    autoFocus={false}
+                                    classes={
+                                      Object {
+                                        "input": "MuiOutlinedInput-input",
+                                        "notchedOutline": null,
+                                        "root": "MuiOutlinedInput-root",
+                                      }
+                                    }
+                                    components={
+                                      Object {
+                                        "Input": Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "__emotion_base": "input",
+                                          "__emotion_forwardProp": [Function],
+                                          "__emotion_real": [Circular],
+                                          "__emotion_styles": Array [
+                                            "label:MuiInputBase-input;",
+                                            [Function],
+                                            [Function],
+                                            [Function],
+                                            "label:MuiOutlinedInput-input;",
+                                            [Function],
+                                            [Function],
+                                            [Function],
+                                          ],
+                                          "defaultProps": undefined,
+                                          "render": [Function],
+                                          "withComponent": [Function],
+                                        },
+                                        "Root": Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "__emotion_base": "div",
+                                          "__emotion_forwardProp": [Function],
+                                          "__emotion_real": [Circular],
+                                          "__emotion_styles": Array [
+                                            "label:MuiInputBase-root;",
+                                            [Function],
+                                            [Function],
+                                            [Function],
+                                            [Function],
+                                            "label:MuiOutlinedInput-root;",
+                                            [Function],
+                                            [Function],
+                                            [Function],
+                                            [Function],
+                                          ],
+                                          "defaultProps": undefined,
+                                          "render": [Function],
+                                          "withComponent": [Function],
+                                        },
+                                      }
+                                    }
+                                    fullWidth={true}
+                                    id="description"
+                                    inputComponent="input"
+                                    multiline={false}
+                                    onChange={[Function]}
+                                    renderSuffix={[Function]}
+                                    type="text"
+                                    value=""
+                                  >
+                                    <GlobalStyles
+                                      styles={
+                                        Object {
+                                          "@keyframes mui-auto-fill": Object {
+                                            "from": Object {
+                                              "display": "block",
+                                            },
+                                          },
+                                          "@keyframes mui-auto-fill-cancel": Object {
+                                            "from": Object {
+                                              "display": "block",
+                                            },
+                                          },
+                                        }
+                                      }
+                                    >
+                                      <GlobalStyles
+                                        defaultTheme={
+                                          Object {
+                                            "breakpoints": Object {
+                                              "between": [Function],
+                                              "down": [Function],
+                                              "keys": Array [
+                                                "xs",
+                                                "sm",
+                                                "md",
+                                                "lg",
+                                                "xl",
+                                              ],
+                                              "not": [Function],
+                                              "only": [Function],
+                                              "unit": "px",
+                                              "up": [Function],
+                                              "values": Object {
+                                                "lg": 1200,
+                                                "md": 900,
+                                                "sm": 600,
+                                                "xl": 1536,
+                                                "xs": 0,
+                                              },
+                                            },
+                                            "components": Object {},
+                                            "direction": "ltr",
+                                            "mixins": Object {
+                                              "toolbar": Object {
+                                                "@media (min-width:0px) and (orientation: landscape)": Object {
+                                                  "minHeight": 48,
+                                                },
+                                                "@media (min-width:600px)": Object {
+                                                  "minHeight": 64,
+                                                },
+                                                "minHeight": 56,
+                                              },
+                                            },
+                                            "palette": Object {
+                                              "action": Object {
+                                                "activatedOpacity": 0.12,
+                                                "active": "rgba(0, 0, 0, 0.54)",
+                                                "disabled": "rgba(0, 0, 0, 0.26)",
+                                                "disabledBackground": "rgba(0, 0, 0, 0.12)",
+                                                "disabledOpacity": 0.38,
+                                                "focus": "rgba(0, 0, 0, 0.12)",
+                                                "focusOpacity": 0.12,
+                                                "hover": "rgba(0, 0, 0, 0.04)",
+                                                "hoverOpacity": 0.04,
+                                                "selected": "rgba(0, 0, 0, 0.08)",
+                                                "selectedOpacity": 0.08,
+                                              },
+                                              "augmentColor": [Function],
+                                              "background": Object {
+                                                "default": "#fff",
+                                                "paper": "#fff",
+                                              },
+                                              "common": Object {
+                                                "black": "#000",
+                                                "white": "#fff",
+                                              },
+                                              "contrastThreshold": 3,
+                                              "divider": "rgba(0, 0, 0, 0.12)",
+                                              "error": Object {
+                                                "contrastText": "#fff",
+                                                "dark": "#c62828",
+                                                "light": "#ef5350",
+                                                "main": "#d32f2f",
+                                              },
+                                              "getContrastText": [Function],
+                                              "grey": Object {
+                                                "100": "#f5f5f5",
+                                                "200": "#eeeeee",
+                                                "300": "#e0e0e0",
+                                                "400": "#bdbdbd",
+                                                "50": "#fafafa",
+                                                "500": "#9e9e9e",
+                                                "600": "#757575",
+                                                "700": "#616161",
+                                                "800": "#424242",
+                                                "900": "#212121",
+                                                "A100": "#f5f5f5",
+                                                "A200": "#eeeeee",
+                                                "A400": "#bdbdbd",
+                                                "A700": "#616161",
+                                              },
+                                              "info": Object {
+                                                "contrastText": "#fff",
+                                                "dark": "#01579b",
+                                                "light": "#03a9f4",
+                                                "main": "#0288d1",
+                                              },
+                                              "mode": "light",
+                                              "primary": Object {
+                                                "contrastText": "#fff",
+                                                "dark": "#1565c0",
+                                                "light": "#42a5f5",
+                                                "main": "#1976d2",
+                                              },
+                                              "secondary": Object {
+                                                "contrastText": "#fff",
+                                                "dark": "#7b1fa2",
+                                                "light": "#ba68c8",
+                                                "main": "#9c27b0",
+                                              },
+                                              "success": Object {
+                                                "contrastText": "#fff",
+                                                "dark": "#1b5e20",
+                                                "light": "#4caf50",
+                                                "main": "#2e7d32",
+                                              },
+                                              "text": Object {
+                                                "disabled": "rgba(0, 0, 0, 0.38)",
+                                                "primary": "rgba(0, 0, 0, 0.87)",
+                                                "secondary": "rgba(0, 0, 0, 0.6)",
+                                              },
+                                              "tonalOffset": 0.2,
+                                              "warning": Object {
+                                                "contrastText": "#fff",
+                                                "dark": "#e65100",
+                                                "light": "#ff9800",
+                                                "main": "#ed6c02",
+                                              },
+                                            },
+                                            "shadows": Array [
+                                              "none",
+                                              "0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12)",
+                                              "0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12)",
+                                              "0px 3px 3px -2px rgba(0,0,0,0.2),0px 3px 4px 0px rgba(0,0,0,0.14),0px 1px 8px 0px rgba(0,0,0,0.12)",
+                                              "0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12)",
+                                              "0px 3px 5px -1px rgba(0,0,0,0.2),0px 5px 8px 0px rgba(0,0,0,0.14),0px 1px 14px 0px rgba(0,0,0,0.12)",
+                                              "0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12)",
+                                              "0px 4px 5px -2px rgba(0,0,0,0.2),0px 7px 10px 1px rgba(0,0,0,0.14),0px 2px 16px 1px rgba(0,0,0,0.12)",
+                                              "0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12)",
+                                              "0px 5px 6px -3px rgba(0,0,0,0.2),0px 9px 12px 1px rgba(0,0,0,0.14),0px 3px 16px 2px rgba(0,0,0,0.12)",
+                                              "0px 6px 6px -3px rgba(0,0,0,0.2),0px 10px 14px 1px rgba(0,0,0,0.14),0px 4px 18px 3px rgba(0,0,0,0.12)",
+                                              "0px 6px 7px -4px rgba(0,0,0,0.2),0px 11px 15px 1px rgba(0,0,0,0.14),0px 4px 20px 3px rgba(0,0,0,0.12)",
+                                              "0px 7px 8px -4px rgba(0,0,0,0.2),0px 12px 17px 2px rgba(0,0,0,0.14),0px 5px 22px 4px rgba(0,0,0,0.12)",
+                                              "0px 7px 8px -4px rgba(0,0,0,0.2),0px 13px 19px 2px rgba(0,0,0,0.14),0px 5px 24px 4px rgba(0,0,0,0.12)",
+                                              "0px 7px 9px -4px rgba(0,0,0,0.2),0px 14px 21px 2px rgba(0,0,0,0.14),0px 5px 26px 4px rgba(0,0,0,0.12)",
+                                              "0px 8px 9px -5px rgba(0,0,0,0.2),0px 15px 22px 2px rgba(0,0,0,0.14),0px 6px 28px 5px rgba(0,0,0,0.12)",
+                                              "0px 8px 10px -5px rgba(0,0,0,0.2),0px 16px 24px 2px rgba(0,0,0,0.14),0px 6px 30px 5px rgba(0,0,0,0.12)",
+                                              "0px 8px 11px -5px rgba(0,0,0,0.2),0px 17px 26px 2px rgba(0,0,0,0.14),0px 6px 32px 5px rgba(0,0,0,0.12)",
+                                              "0px 9px 11px -5px rgba(0,0,0,0.2),0px 18px 28px 2px rgba(0,0,0,0.14),0px 7px 34px 6px rgba(0,0,0,0.12)",
+                                              "0px 9px 12px -6px rgba(0,0,0,0.2),0px 19px 29px 2px rgba(0,0,0,0.14),0px 7px 36px 6px rgba(0,0,0,0.12)",
+                                              "0px 10px 13px -6px rgba(0,0,0,0.2),0px 20px 31px 3px rgba(0,0,0,0.14),0px 8px 38px 7px rgba(0,0,0,0.12)",
+                                              "0px 10px 13px -6px rgba(0,0,0,0.2),0px 21px 33px 3px rgba(0,0,0,0.14),0px 8px 40px 7px rgba(0,0,0,0.12)",
+                                              "0px 10px 14px -6px rgba(0,0,0,0.2),0px 22px 35px 3px rgba(0,0,0,0.14),0px 8px 42px 7px rgba(0,0,0,0.12)",
+                                              "0px 11px 14px -7px rgba(0,0,0,0.2),0px 23px 36px 3px rgba(0,0,0,0.14),0px 9px 44px 8px rgba(0,0,0,0.12)",
+                                              "0px 11px 15px -7px rgba(0,0,0,0.2),0px 24px 38px 3px rgba(0,0,0,0.14),0px 9px 46px 8px rgba(0,0,0,0.12)",
+                                            ],
+                                            "shape": Object {
+                                              "borderRadius": 4,
+                                            },
+                                            "spacing": [Function],
+                                            "transitions": Object {
+                                              "create": [Function],
+                                              "duration": Object {
+                                                "complex": 375,
+                                                "enteringScreen": 225,
+                                                "leavingScreen": 195,
+                                                "short": 250,
+                                                "shorter": 200,
+                                                "shortest": 150,
+                                                "standard": 300,
+                                              },
+                                              "easing": Object {
+                                                "easeIn": "cubic-bezier(0.4, 0, 1, 1)",
+                                                "easeInOut": "cubic-bezier(0.4, 0, 0.2, 1)",
+                                                "easeOut": "cubic-bezier(0.0, 0, 0.2, 1)",
+                                                "sharp": "cubic-bezier(0.4, 0, 0.6, 1)",
+                                              },
+                                              "getAutoHeightDuration": [Function],
+                                            },
+                                            "typography": Object {
+                                              "body1": Object {
+                                                "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                                "fontSize": "1rem",
+                                                "fontWeight": 400,
+                                                "letterSpacing": "0.00938em",
+                                                "lineHeight": 1.5,
+                                              },
+                                              "body2": Object {
+                                                "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                                "fontSize": "0.875rem",
+                                                "fontWeight": 400,
+                                                "letterSpacing": "0.01071em",
+                                                "lineHeight": 1.43,
+                                              },
+                                              "button": Object {
+                                                "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                                "fontSize": "0.875rem",
+                                                "fontWeight": 500,
+                                                "letterSpacing": "0.02857em",
+                                                "lineHeight": 1.75,
+                                                "textTransform": "uppercase",
+                                              },
+                                              "caption": Object {
+                                                "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                                "fontSize": "0.75rem",
+                                                "fontWeight": 400,
+                                                "letterSpacing": "0.03333em",
+                                                "lineHeight": 1.66,
+                                              },
+                                              "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                              "fontSize": 14,
+                                              "fontWeightBold": 700,
+                                              "fontWeightLight": 300,
+                                              "fontWeightMedium": 500,
+                                              "fontWeightRegular": 400,
+                                              "h1": Object {
+                                                "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                                "fontSize": "6rem",
+                                                "fontWeight": 300,
+                                                "letterSpacing": "-0.01562em",
+                                                "lineHeight": 1.167,
+                                              },
+                                              "h2": Object {
+                                                "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                                "fontSize": "3.75rem",
+                                                "fontWeight": 300,
+                                                "letterSpacing": "-0.00833em",
+                                                "lineHeight": 1.2,
+                                              },
+                                              "h3": Object {
+                                                "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                                "fontSize": "3rem",
+                                                "fontWeight": 400,
+                                                "letterSpacing": "0em",
+                                                "lineHeight": 1.167,
+                                              },
+                                              "h4": Object {
+                                                "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                                "fontSize": "2.125rem",
+                                                "fontWeight": 400,
+                                                "letterSpacing": "0.00735em",
+                                                "lineHeight": 1.235,
+                                              },
+                                              "h5": Object {
+                                                "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                                "fontSize": "1.5rem",
+                                                "fontWeight": 400,
+                                                "letterSpacing": "0em",
+                                                "lineHeight": 1.334,
+                                              },
+                                              "h6": Object {
+                                                "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                                "fontSize": "1.25rem",
+                                                "fontWeight": 500,
+                                                "letterSpacing": "0.0075em",
+                                                "lineHeight": 1.6,
+                                              },
+                                              "htmlFontSize": 16,
+                                              "overline": Object {
+                                                "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                                "fontSize": "0.75rem",
+                                                "fontWeight": 400,
+                                                "letterSpacing": "0.08333em",
+                                                "lineHeight": 2.66,
+                                                "textTransform": "uppercase",
+                                              },
+                                              "pxToRem": [Function],
+                                              "subtitle1": Object {
+                                                "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                                "fontSize": "1rem",
+                                                "fontWeight": 400,
+                                                "letterSpacing": "0.00938em",
+                                                "lineHeight": 1.75,
+                                              },
+                                              "subtitle2": Object {
+                                                "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                                "fontSize": "0.875rem",
+                                                "fontWeight": 500,
+                                                "letterSpacing": "0.00714em",
+                                                "lineHeight": 1.57,
+                                              },
+                                            },
+                                            "zIndex": Object {
+                                              "appBar": 1100,
+                                              "drawer": 1200,
+                                              "mobileStepper": 1000,
+                                              "modal": 1300,
+                                              "snackbar": 1400,
+                                              "speedDial": 1050,
+                                              "tooltip": 1500,
+                                            },
+                                          }
+                                        }
+                                        styles={
+                                          Object {
+                                            "@keyframes mui-auto-fill": Object {
+                                              "from": Object {
+                                                "display": "block",
+                                              },
+                                            },
+                                            "@keyframes mui-auto-fill-cancel": Object {
+                                              "from": Object {
+                                                "display": "block",
+                                              },
+                                            },
+                                          }
+                                        }
+                                      >
+                                        <EmotionGlobal
+                                          styles={
+                                            Object {
+                                              "@keyframes mui-auto-fill": Object {
+                                                "from": Object {
+                                                  "display": "block",
+                                                },
+                                              },
+                                              "@keyframes mui-auto-fill-cancel": Object {
+                                                "from": Object {
+                                                  "display": "block",
+                                                },
+                                              },
+                                            }
+                                          }
+                                        />
+                                      </GlobalStyles>
+                                    </GlobalStyles>
+                                    <MuiOutlinedInputRoot
+                                      className="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl"
+                                      classes={
+                                        Object {
+                                          "input": "MuiOutlinedInput-input",
+                                          "notchedOutline": null,
+                                          "root": "MuiOutlinedInput-root",
+                                        }
+                                      }
+                                      onClick={[Function]}
+                                      ownerState={
+                                        Object {
+                                          "aria-describedby": undefined,
+                                          "autoComplete": undefined,
+                                          "autoFocus": false,
+                                          "classes": Object {
+                                            "input": "MuiOutlinedInput-input",
+                                            "notchedOutline": null,
+                                            "root": "MuiOutlinedInput-root",
+                                          },
+                                          "color": "primary",
+                                          "components": Object {
+                                            "Input": Object {
+                                              "$$typeof": Symbol(react.forward_ref),
+                                              "__emotion_base": "input",
+                                              "__emotion_forwardProp": [Function],
+                                              "__emotion_real": [Circular],
+                                              "__emotion_styles": Array [
+                                                "label:MuiInputBase-input;",
+                                                [Function],
+                                                [Function],
+                                                [Function],
+                                                "label:MuiOutlinedInput-input;",
+                                                [Function],
+                                                [Function],
+                                                [Function],
+                                              ],
+                                              "defaultProps": undefined,
+                                              "render": [Function],
+                                              "withComponent": [Function],
+                                            },
+                                            "Root": Object {
+                                              "$$typeof": Symbol(react.forward_ref),
+                                              "__emotion_base": "div",
+                                              "__emotion_forwardProp": [Function],
+                                              "__emotion_real": [Circular],
+                                              "__emotion_styles": Array [
+                                                "label:MuiInputBase-root;",
+                                                [Function],
+                                                [Function],
+                                                [Function],
+                                                [Function],
+                                                "label:MuiOutlinedInput-root;",
+                                                [Function],
+                                                [Function],
+                                                [Function],
+                                                [Function],
+                                              ],
+                                              "defaultProps": undefined,
+                                              "render": [Function],
+                                              "withComponent": [Function],
+                                            },
+                                          },
+                                          "defaultValue": undefined,
+                                          "disabled": false,
+                                          "endAdornment": undefined,
+                                          "error": false,
+                                          "focused": false,
+                                          "formControl": Object {
+                                            "adornedStart": false,
+                                            "color": "primary",
+                                            "disabled": false,
+                                            "error": false,
+                                            "filled": false,
+                                            "focused": false,
+                                            "fullWidth": true,
+                                            "hiddenLabel": false,
+                                            "onBlur": [Function],
+                                            "onEmpty": [Function],
+                                            "onFilled": [Function],
+                                            "onFocus": [Function],
+                                            "registerEffect": [Function],
+                                            "required": false,
+                                            "setAdornedStart": [Function],
+                                            "size": "medium",
+                                            "variant": "outlined",
+                                          },
+                                          "fullWidth": true,
+                                          "hiddenLabel": false,
+                                          "id": "description",
+                                          "inputComponent": "input",
+                                          "inputProps": undefined,
+                                          "inputRef": undefined,
+                                          "maxRows": undefined,
+                                          "minRows": undefined,
+                                          "multiline": false,
+                                          "name": undefined,
+                                          "onBlur": undefined,
+                                          "onChange": [Function],
+                                          "onFocus": undefined,
+                                          "placeholder": undefined,
+                                          "renderSuffix": [Function],
+                                          "rows": undefined,
+                                          "size": "medium",
+                                          "startAdornment": undefined,
+                                          "type": "text",
+                                          "value": "",
+                                        }
+                                      }
+                                    >
+                                      <Noop />
+                                      <div
+                                        className="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl css-md26zr-MuiInputBase-root-MuiOutlinedInput-root"
+                                        onClick={[Function]}
+                                      >
+                                        <MuiOutlinedInputInput
+                                          aria-invalid={false}
+                                          as="input"
+                                          autoFocus={false}
+                                          className="MuiOutlinedInput-input MuiInputBase-input"
+                                          disabled={false}
+                                          id="description"
+                                          onAnimationStart={[Function]}
+                                          onBlur={[Function]}
+                                          onChange={[Function]}
+                                          onFocus={[Function]}
+                                          ownerState={
+                                            Object {
+                                              "aria-describedby": undefined,
+                                              "autoComplete": undefined,
+                                              "autoFocus": false,
+                                              "classes": Object {
+                                                "input": "MuiOutlinedInput-input",
+                                                "notchedOutline": null,
+                                                "root": "MuiOutlinedInput-root",
+                                              },
+                                              "color": "primary",
+                                              "components": Object {
+                                                "Input": Object {
+                                                  "$$typeof": Symbol(react.forward_ref),
+                                                  "__emotion_base": "input",
+                                                  "__emotion_forwardProp": [Function],
+                                                  "__emotion_real": [Circular],
+                                                  "__emotion_styles": Array [
+                                                    "label:MuiInputBase-input;",
+                                                    [Function],
+                                                    [Function],
+                                                    [Function],
+                                                    "label:MuiOutlinedInput-input;",
+                                                    [Function],
+                                                    [Function],
+                                                    [Function],
+                                                  ],
+                                                  "defaultProps": undefined,
+                                                  "render": [Function],
+                                                  "withComponent": [Function],
+                                                },
+                                                "Root": Object {
+                                                  "$$typeof": Symbol(react.forward_ref),
+                                                  "__emotion_base": "div",
+                                                  "__emotion_forwardProp": [Function],
+                                                  "__emotion_real": [Circular],
+                                                  "__emotion_styles": Array [
+                                                    "label:MuiInputBase-root;",
+                                                    [Function],
+                                                    [Function],
+                                                    [Function],
+                                                    [Function],
+                                                    "label:MuiOutlinedInput-root;",
+                                                    [Function],
+                                                    [Function],
+                                                    [Function],
+                                                    [Function],
+                                                  ],
+                                                  "defaultProps": undefined,
+                                                  "render": [Function],
+                                                  "withComponent": [Function],
+                                                },
+                                              },
+                                              "defaultValue": undefined,
+                                              "disabled": false,
+                                              "endAdornment": undefined,
+                                              "error": false,
+                                              "focused": false,
+                                              "formControl": Object {
+                                                "adornedStart": false,
+                                                "color": "primary",
+                                                "disabled": false,
+                                                "error": false,
+                                                "filled": false,
+                                                "focused": false,
+                                                "fullWidth": true,
+                                                "hiddenLabel": false,
+                                                "onBlur": [Function],
+                                                "onEmpty": [Function],
+                                                "onFilled": [Function],
+                                                "onFocus": [Function],
+                                                "registerEffect": [Function],
+                                                "required": false,
+                                                "setAdornedStart": [Function],
+                                                "size": "medium",
+                                                "variant": "outlined",
+                                              },
+                                              "fullWidth": true,
+                                              "hiddenLabel": false,
+                                              "id": "description",
+                                              "inputComponent": "input",
+                                              "inputProps": undefined,
+                                              "inputRef": undefined,
+                                              "maxRows": undefined,
+                                              "minRows": undefined,
+                                              "multiline": false,
+                                              "name": undefined,
+                                              "onBlur": undefined,
+                                              "onChange": [Function],
+                                              "onFocus": undefined,
+                                              "placeholder": undefined,
+                                              "renderSuffix": [Function],
+                                              "rows": undefined,
+                                              "size": "medium",
+                                              "startAdornment": undefined,
+                                              "type": "text",
+                                              "value": "",
+                                            }
+                                          }
+                                          required={false}
+                                          type="text"
+                                          value=""
+                                        >
+                                          <Noop />
+                                          <input
+                                            aria-invalid={false}
+                                            autoFocus={false}
+                                            className="MuiOutlinedInput-input MuiInputBase-input css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input"
+                                            disabled={false}
+                                            id="description"
+                                            onAnimationStart={[Function]}
+                                            onBlur={[Function]}
+                                            onChange={[Function]}
+                                            onFocus={[Function]}
+                                            required={false}
+                                            type="text"
+                                            value=""
+                                          />
+                                        </MuiOutlinedInputInput>
+                                        <MuiOutlinedInputNotchedOutline
+                                          className="MuiOutlinedInput-notchedOutline"
+                                          notched={false}
+                                        >
+                                          <Noop />
+                                          <NotchedOutline
+                                            className="MuiOutlinedInput-notchedOutline css-rki20w-MuiOutlinedInput-notchedOutline"
+                                            notched={false}
+                                          >
+                                            <Styled(fieldset)
+                                              aria-hidden={true}
+                                              className="MuiOutlinedInput-notchedOutline css-rki20w-MuiOutlinedInput-notchedOutline"
+                                              ownerState={
+                                                Object {
+                                                  "className": "MuiOutlinedInput-notchedOutline css-rki20w-MuiOutlinedInput-notchedOutline",
+                                                  "label": undefined,
+                                                  "notched": false,
+                                                }
+                                              }
+                                            >
+                                              <Noop />
+                                              <fieldset
+                                                aria-hidden={true}
+                                                className="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+                                              >
+                                                <Styled(legend)
+                                                  ownerState={
+                                                    Object {
+                                                      "className": "MuiOutlinedInput-notchedOutline css-rki20w-MuiOutlinedInput-notchedOutline",
+                                                      "label": undefined,
+                                                      "notched": false,
+                                                    }
+                                                  }
+                                                >
+                                                  <Noop />
+                                                  <legend
+                                                    className="css-nnbavb"
+                                                  >
+                                                    <span
+                                                      className="notranslate"
+                                                      dangerouslySetInnerHTML={
+                                                        Object {
+                                                          "__html": "&#8203;",
+                                                        }
+                                                      }
+                                                    />
+                                                  </legend>
+                                                </Styled(legend)>
+                                              </fieldset>
+                                            </Styled(fieldset)>
+                                          </NotchedOutline>
+                                        </MuiOutlinedInputNotchedOutline>
+                                      </div>
+                                    </MuiOutlinedInputRoot>
+                                  </ForwardRef(InputBase)>
+                                </ForwardRef(OutlinedInput)>
+                              </div>
+                            </MuiFormControlRoot>
+                          </ForwardRef(FormControl)>
+                        </MuiTextFieldRoot>
+                      </ForwardRef(TextField)>
+                    </div>
+                  </MuiGridRoot>
+                </ForwardRef(Grid)>
+                <ForwardRef(Grid)
+                  alignSelf="start"
+                  item={true}
+                >
+                  <MuiGridRoot
+                    as="div"
+                    className="MuiGrid-root MuiGrid-item"
+                    ownerState={
+                      Object {
+                        "children": <ForwardRef(Typography)
+                          className="makeStyles-descriptionText-4"
+                          variant="h6"
+                        >
+                          Date
+                        </ForwardRef(Typography)>,
+                        "columnSpacing": 0,
+                        "columns": 12,
+                        "container": false,
+                        "direction": "row",
+                        "item": true,
+                        "lg": false,
+                        "md": false,
+                        "rowSpacing": 0,
+                        "sm": false,
+                        "sx": Object {
+                          "alignSelf": "start",
+                        },
+                        "wrap": "wrap",
+                        "xl": false,
+                        "xs": false,
+                        "zeroMinWidth": false,
+                      }
+                    }
+                    sx={
+                      Object {
+                        "alignSelf": "start",
+                      }
+                    }
+                  >
+                    <Noop />
+                    <div
+                      className="MuiGrid-root MuiGrid-item css-f35e3u-MuiGrid-root"
+                    >
+                      <ForwardRef(Typography)
+                        className="makeStyles-descriptionText-4"
+                        variant="h6"
+                      >
+                        <MuiTypographyRoot
+                          as="h6"
+                          className="MuiTypography-root MuiTypography-h6 makeStyles-descriptionText-4"
+                          ownerState={
+                            Object {
+                              "align": "inherit",
+                              "children": "Date",
+                              "className": "makeStyles-descriptionText-4",
+                              "color": undefined,
+                              "component": undefined,
+                              "gutterBottom": false,
+                              "noWrap": false,
+                              "paragraph": false,
+                              "sx": Object {
+                                "color": undefined,
+                              },
+                              "variant": "h6",
+                              "variantMapping": Object {
+                                "body1": "p",
+                                "body2": "p",
+                                "h1": "h1",
+                                "h2": "h2",
+                                "h3": "h3",
+                                "h4": "h4",
+                                "h5": "h5",
+                                "h6": "h6",
+                                "inherit": "p",
+                                "subtitle1": "h6",
+                                "subtitle2": "h6",
+                              },
+                            }
+                          }
+                          sx={
+                            Object {
+                              "color": undefined,
+                            }
+                          }
+                        >
+                          <Noop />
+                          <h6
+                            className="MuiTypography-root MuiTypography-h6 makeStyles-descriptionText-4 css-2ulfj5-MuiTypography-root"
+                          >
+                            Date
+                          </h6>
+                        </MuiTypographyRoot>
+                      </ForwardRef(Typography)>
+                    </div>
+                  </MuiGridRoot>
+                </ForwardRef(Grid)>
+                <ForwardRef(Grid)
+                  item={true}
+                >
+                  <MuiGridRoot
+                    as="div"
+                    className="MuiGrid-root MuiGrid-item"
+                    ownerState={
+                      Object {
+                        "children": <LocalizationProvider
+                          dateAdapter={[Function]}
+                        >
+                          <ForwardRef(DatePicker)
+                            disablePast={true}
+                            onChange={[Function]}
+                            onError={[Function]}
+                            openTo="year"
+                            renderInput={[Function]}
+                            value={null}
+                            views={
+                              Array [
+                                "year",
+                                "month",
+                                "day",
+                              ]
+                            }
+                          />
+                        </LocalizationProvider>,
+                        "columnSpacing": 0,
+                        "columns": 12,
+                        "container": false,
+                        "direction": "row",
+                        "item": true,
+                        "lg": false,
+                        "md": false,
+                        "rowSpacing": 0,
+                        "sm": false,
+                        "sx": Object {},
+                        "wrap": "wrap",
+                        "xl": false,
+                        "xs": false,
+                        "zeroMinWidth": false,
+                      }
+                    }
+                    sx={Object {}}
+                  >
+                    <Noop />
+                    <div
+                      className="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+                    >
+                      <LocalizationProvider
+                        dateAdapter={[Function]}
+                      >
+                        <ForwardRef(DatePicker)
+                          disablePast={true}
+                          onChange={[Function]}
+                          onError={[Function]}
+                          openTo="year"
+                          renderInput={[Function]}
+                          value={null}
+                          views={
+                            Array [
+                              "year",
+                              "month",
+                              "day",
+                            ]
+                          }
+                        >
+                          <ForwardRef(DesktopDatePicker)
+                            disablePast={true}
+                            onChange={[Function]}
+                            onError={[Function]}
+                            openTo="year"
+                            renderInput={[Function]}
+                            value={null}
+                            views={
+                              Array [
+                                "year",
+                                "month",
+                                "day",
+                              ]
+                            }
+                          >
+                            <DesktopWrapper
+                              DateInputProps={
+                                Object {
+                                  "disablePast": true,
+                                  "inputFormat": "P",
+                                  "mask": "__/__/____",
+                                  "maxDate": 2099-12-31T08:00:00.000Z,
+                                  "minDate": 1900-01-01T08:00:00.000Z,
+                                  "onChange": [Function],
+                                  "onError": [Function],
+                                  "open": false,
+                                  "openPicker": [Function],
+                                  "openTo": "year",
+                                  "rawValue": null,
+                                  "ref": null,
+                                  "renderInput": [Function],
+                                  "validationError": false,
+                                  "views": Array [
+                                    "year",
+                                    "month",
+                                    "day",
+                                  ],
+                                }
+                              }
+                              KeyboardDateInputComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "propTypes": Object {
+                                    "OpenPickerButtonProps": [Function],
+                                    "acceptRegex": [Function],
+                                    "getOpenDialogAriaText": [Function],
+                                    "mask": [Function],
+                                    "renderInput": [Function],
+                                    "rifmFormatter": [Function],
+                                  },
+                                  "render": [Function],
+                                }
+                              }
+                              onAccept={[Function]}
+                              onClear={[Function]}
+                              onDismiss={[Function]}
+                              onSetToday={[Function]}
+                              open={false}
+                            >
+                              <ForwardRef(KeyboardDateInput)
+                                disablePast={true}
+                                inputFormat="P"
+                                inputRef={[Function]}
+                                mask="__/__/____"
+                                maxDate={2099-12-31T08:00:00.000Z}
+                                minDate={1900-01-01T08:00:00.000Z}
+                                onChange={[Function]}
+                                onError={[Function]}
+                                open={false}
+                                openPicker={[Function]}
+                                openTo="year"
+                                rawValue={null}
+                                renderInput={[Function]}
+                                validationError={false}
+                                views={
+                                  Array [
+                                    "year",
+                                    "month",
+                                    "day",
+                                  ]
+                                }
+                              >
+                                <ForwardRef(TextField)
+                                  InputProps={
+                                    Object {
+                                      "endAdornment": <ForwardRef(InputAdornment)
+                                        position="end"
+                                      >
+                                        <ForwardRef(IconButton)
+                                          aria-label="Choose date"
+                                          edge="end"
+                                          onClick={[Function]}
+                                        >
+                                          <Memo />
+                                        </ForwardRef(IconButton)>
+                                      </ForwardRef(InputAdornment)>,
+                                    }
+                                  }
+                                  error={false}
+                                  fullWidth={true}
+                                  id="date_field"
+                                  inputProps={
+                                    Object {
+                                      "disabled": undefined,
+                                      "onBlur": [Function],
+                                      "onChange": [Function],
+                                      "onFocus": [Function],
+                                      "placeholder": "mm/dd/yyyy",
+                                      "readOnly": undefined,
+                                      "type": "tel",
+                                      "value": "",
+                                    }
+                                  }
+                                  inputRef={[Function]}
+                                  variant="outlined"
+                                >
+                                  <MuiTextFieldRoot
+                                    className="MuiTextField-root"
+                                    color="primary"
+                                    disabled={false}
+                                    error={false}
+                                    fullWidth={true}
+                                    ownerState={
+                                      Object {
+                                        "InputProps": Object {
+                                          "endAdornment": <ForwardRef(InputAdornment)
+                                            position="end"
+                                          >
+                                            <ForwardRef(IconButton)
+                                              aria-label="Choose date"
+                                              edge="end"
+                                              onClick={[Function]}
+                                            >
+                                              <Memo />
+                                            </ForwardRef(IconButton)>
+                                          </ForwardRef(InputAdornment)>,
+                                        },
+                                        "autoFocus": false,
+                                        "color": "primary",
+                                        "disabled": false,
+                                        "error": false,
+                                        "fullWidth": true,
+                                        "id": "date_field",
+                                        "inputProps": Object {
+                                          "disabled": undefined,
+                                          "onBlur": [Function],
+                                          "onChange": [Function],
+                                          "onFocus": [Function],
+                                          "placeholder": "mm/dd/yyyy",
+                                          "readOnly": undefined,
+                                          "type": "tel",
+                                          "value": "",
+                                        },
+                                        "inputRef": [Function],
+                                        "label": undefined,
+                                        "multiline": false,
+                                        "required": false,
+                                        "select": false,
+                                        "variant": "outlined",
+                                      }
+                                    }
+                                    required={false}
+                                    variant="outlined"
+                                  >
+                                    <Noop />
+                                    <ForwardRef(FormControl)
+                                      className="MuiTextField-root css-1xj1k15-MuiTextField-root"
+                                      color="primary"
+                                      disabled={false}
+                                      error={false}
+                                      fullWidth={true}
+                                      required={false}
+                                      variant="outlined"
+                                    >
+                                      <MuiFormControlRoot
+                                        as="div"
+                                        className="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-1xj1k15-MuiTextField-root"
+                                        ownerState={
+                                          Object {
+                                            "children": Array [
+                                              undefined,
+                                              <ForwardRef(OutlinedInput)
+                                                autoFocus={false}
+                                                endAdornment={
+                                                  <ForwardRef(InputAdornment)
+                                                    position="end"
+                                                  >
+                                                    <ForwardRef(IconButton)
+                                                      aria-label="Choose date"
+                                                      edge="end"
+                                                      onClick={[Function]}
+                                                    >
+                                                      <Memo />
+                                                    </ForwardRef(IconButton)>
+                                                  </ForwardRef(InputAdornment)>
+                                                }
+                                                fullWidth={true}
+                                                id="date_field"
+                                                inputProps={
+                                                  Object {
+                                                    "disabled": undefined,
+                                                    "onBlur": [Function],
+                                                    "onChange": [Function],
+                                                    "onFocus": [Function],
+                                                    "placeholder": "mm/dd/yyyy",
+                                                    "readOnly": undefined,
+                                                    "type": "tel",
+                                                    "value": "",
+                                                  }
+                                                }
+                                                inputRef={[Function]}
+                                                multiline={false}
+                                              />,
+                                              undefined,
+                                            ],
+                                            "className": "MuiTextField-root css-1xj1k15-MuiTextField-root",
+                                            "color": "primary",
+                                            "component": "div",
+                                            "disabled": false,
+                                            "error": false,
+                                            "fullWidth": true,
+                                            "hiddenLabel": false,
+                                            "margin": "none",
+                                            "required": false,
+                                            "size": "medium",
+                                            "variant": "outlined",
+                                          }
+                                        }
+                                      >
+                                        <Noop />
+                                        <div
+                                          className="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-wb57ya-MuiFormControl-root-MuiTextField-root"
+                                        >
+                                          <ForwardRef(OutlinedInput)
+                                            autoFocus={false}
+                                            endAdornment={
+                                              <ForwardRef(InputAdornment)
+                                                position="end"
+                                              >
+                                                <ForwardRef(IconButton)
+                                                  aria-label="Choose date"
+                                                  edge="end"
+                                                  onClick={[Function]}
+                                                >
+                                                  <Memo />
+                                                </ForwardRef(IconButton)>
+                                              </ForwardRef(InputAdornment)>
+                                            }
+                                            fullWidth={true}
+                                            id="date_field"
+                                            inputProps={
+                                              Object {
+                                                "disabled": undefined,
+                                                "onBlur": [Function],
+                                                "onChange": [Function],
+                                                "onFocus": [Function],
+                                                "placeholder": "mm/dd/yyyy",
+                                                "readOnly": undefined,
+                                                "type": "tel",
+                                                "value": "",
+                                              }
+                                            }
+                                            inputRef={[Function]}
+                                            multiline={false}
+                                          >
+                                            <ForwardRef(InputBase)
+                                              autoFocus={false}
+                                              classes={
+                                                Object {
+                                                  "input": "MuiOutlinedInput-input",
+                                                  "notchedOutline": null,
+                                                  "root": "MuiOutlinedInput-root",
+                                                }
+                                              }
+                                              components={
+                                                Object {
+                                                  "Input": Object {
+                                                    "$$typeof": Symbol(react.forward_ref),
+                                                    "__emotion_base": "input",
+                                                    "__emotion_forwardProp": [Function],
+                                                    "__emotion_real": [Circular],
+                                                    "__emotion_styles": Array [
+                                                      "label:MuiInputBase-input;",
+                                                      [Function],
+                                                      [Function],
+                                                      [Function],
+                                                      "label:MuiOutlinedInput-input;",
+                                                      [Function],
+                                                      [Function],
+                                                      [Function],
+                                                    ],
+                                                    "defaultProps": undefined,
+                                                    "render": [Function],
+                                                    "withComponent": [Function],
+                                                  },
+                                                  "Root": Object {
+                                                    "$$typeof": Symbol(react.forward_ref),
+                                                    "__emotion_base": "div",
+                                                    "__emotion_forwardProp": [Function],
+                                                    "__emotion_real": [Circular],
+                                                    "__emotion_styles": Array [
+                                                      "label:MuiInputBase-root;",
+                                                      [Function],
+                                                      [Function],
+                                                      [Function],
+                                                      [Function],
+                                                      "label:MuiOutlinedInput-root;",
+                                                      [Function],
+                                                      [Function],
+                                                      [Function],
+                                                      [Function],
+                                                    ],
+                                                    "defaultProps": undefined,
+                                                    "render": [Function],
+                                                    "withComponent": [Function],
+                                                  },
+                                                }
+                                              }
+                                              endAdornment={
+                                                <ForwardRef(InputAdornment)
+                                                  position="end"
+                                                >
+                                                  <ForwardRef(IconButton)
+                                                    aria-label="Choose date"
+                                                    edge="end"
+                                                    onClick={[Function]}
+                                                  >
+                                                    <Memo />
+                                                  </ForwardRef(IconButton)>
+                                                </ForwardRef(InputAdornment)>
+                                              }
+                                              fullWidth={true}
+                                              id="date_field"
+                                              inputComponent="input"
+                                              inputProps={
+                                                Object {
+                                                  "disabled": undefined,
+                                                  "onBlur": [Function],
+                                                  "onChange": [Function],
+                                                  "onFocus": [Function],
+                                                  "placeholder": "mm/dd/yyyy",
+                                                  "readOnly": undefined,
+                                                  "type": "tel",
+                                                  "value": "",
+                                                }
+                                              }
+                                              inputRef={[Function]}
+                                              multiline={false}
+                                              renderSuffix={[Function]}
+                                              type="text"
+                                            >
+                                              <GlobalStyles
+                                                styles={
+                                                  Object {
+                                                    "@keyframes mui-auto-fill": Object {
+                                                      "from": Object {
+                                                        "display": "block",
+                                                      },
+                                                    },
+                                                    "@keyframes mui-auto-fill-cancel": Object {
+                                                      "from": Object {
+                                                        "display": "block",
+                                                      },
+                                                    },
+                                                  }
+                                                }
+                                              >
+                                                <GlobalStyles
+                                                  defaultTheme={
+                                                    Object {
+                                                      "breakpoints": Object {
+                                                        "between": [Function],
+                                                        "down": [Function],
+                                                        "keys": Array [
+                                                          "xs",
+                                                          "sm",
+                                                          "md",
+                                                          "lg",
+                                                          "xl",
+                                                        ],
+                                                        "not": [Function],
+                                                        "only": [Function],
+                                                        "unit": "px",
+                                                        "up": [Function],
+                                                        "values": Object {
+                                                          "lg": 1200,
+                                                          "md": 900,
+                                                          "sm": 600,
+                                                          "xl": 1536,
+                                                          "xs": 0,
+                                                        },
+                                                      },
+                                                      "components": Object {},
+                                                      "direction": "ltr",
+                                                      "mixins": Object {
+                                                        "toolbar": Object {
+                                                          "@media (min-width:0px) and (orientation: landscape)": Object {
+                                                            "minHeight": 48,
+                                                          },
+                                                          "@media (min-width:600px)": Object {
+                                                            "minHeight": 64,
+                                                          },
+                                                          "minHeight": 56,
+                                                        },
+                                                      },
+                                                      "palette": Object {
+                                                        "action": Object {
+                                                          "activatedOpacity": 0.12,
+                                                          "active": "rgba(0, 0, 0, 0.54)",
+                                                          "disabled": "rgba(0, 0, 0, 0.26)",
+                                                          "disabledBackground": "rgba(0, 0, 0, 0.12)",
+                                                          "disabledOpacity": 0.38,
+                                                          "focus": "rgba(0, 0, 0, 0.12)",
+                                                          "focusOpacity": 0.12,
+                                                          "hover": "rgba(0, 0, 0, 0.04)",
+                                                          "hoverOpacity": 0.04,
+                                                          "selected": "rgba(0, 0, 0, 0.08)",
+                                                          "selectedOpacity": 0.08,
+                                                        },
+                                                        "augmentColor": [Function],
+                                                        "background": Object {
+                                                          "default": "#fff",
+                                                          "paper": "#fff",
+                                                        },
+                                                        "common": Object {
+                                                          "black": "#000",
+                                                          "white": "#fff",
+                                                        },
+                                                        "contrastThreshold": 3,
+                                                        "divider": "rgba(0, 0, 0, 0.12)",
+                                                        "error": Object {
+                                                          "contrastText": "#fff",
+                                                          "dark": "#c62828",
+                                                          "light": "#ef5350",
+                                                          "main": "#d32f2f",
+                                                        },
+                                                        "getContrastText": [Function],
+                                                        "grey": Object {
+                                                          "100": "#f5f5f5",
+                                                          "200": "#eeeeee",
+                                                          "300": "#e0e0e0",
+                                                          "400": "#bdbdbd",
+                                                          "50": "#fafafa",
+                                                          "500": "#9e9e9e",
+                                                          "600": "#757575",
+                                                          "700": "#616161",
+                                                          "800": "#424242",
+                                                          "900": "#212121",
+                                                          "A100": "#f5f5f5",
+                                                          "A200": "#eeeeee",
+                                                          "A400": "#bdbdbd",
+                                                          "A700": "#616161",
+                                                        },
+                                                        "info": Object {
+                                                          "contrastText": "#fff",
+                                                          "dark": "#01579b",
+                                                          "light": "#03a9f4",
+                                                          "main": "#0288d1",
+                                                        },
+                                                        "mode": "light",
+                                                        "primary": Object {
+                                                          "contrastText": "#fff",
+                                                          "dark": "#1565c0",
+                                                          "light": "#42a5f5",
+                                                          "main": "#1976d2",
+                                                        },
+                                                        "secondary": Object {
+                                                          "contrastText": "#fff",
+                                                          "dark": "#7b1fa2",
+                                                          "light": "#ba68c8",
+                                                          "main": "#9c27b0",
+                                                        },
+                                                        "success": Object {
+                                                          "contrastText": "#fff",
+                                                          "dark": "#1b5e20",
+                                                          "light": "#4caf50",
+                                                          "main": "#2e7d32",
+                                                        },
+                                                        "text": Object {
+                                                          "disabled": "rgba(0, 0, 0, 0.38)",
+                                                          "primary": "rgba(0, 0, 0, 0.87)",
+                                                          "secondary": "rgba(0, 0, 0, 0.6)",
+                                                        },
+                                                        "tonalOffset": 0.2,
+                                                        "warning": Object {
+                                                          "contrastText": "#fff",
+                                                          "dark": "#e65100",
+                                                          "light": "#ff9800",
+                                                          "main": "#ed6c02",
+                                                        },
+                                                      },
+                                                      "shadows": Array [
+                                                        "none",
+                                                        "0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12)",
+                                                        "0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12)",
+                                                        "0px 3px 3px -2px rgba(0,0,0,0.2),0px 3px 4px 0px rgba(0,0,0,0.14),0px 1px 8px 0px rgba(0,0,0,0.12)",
+                                                        "0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12)",
+                                                        "0px 3px 5px -1px rgba(0,0,0,0.2),0px 5px 8px 0px rgba(0,0,0,0.14),0px 1px 14px 0px rgba(0,0,0,0.12)",
+                                                        "0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12)",
+                                                        "0px 4px 5px -2px rgba(0,0,0,0.2),0px 7px 10px 1px rgba(0,0,0,0.14),0px 2px 16px 1px rgba(0,0,0,0.12)",
+                                                        "0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12)",
+                                                        "0px 5px 6px -3px rgba(0,0,0,0.2),0px 9px 12px 1px rgba(0,0,0,0.14),0px 3px 16px 2px rgba(0,0,0,0.12)",
+                                                        "0px 6px 6px -3px rgba(0,0,0,0.2),0px 10px 14px 1px rgba(0,0,0,0.14),0px 4px 18px 3px rgba(0,0,0,0.12)",
+                                                        "0px 6px 7px -4px rgba(0,0,0,0.2),0px 11px 15px 1px rgba(0,0,0,0.14),0px 4px 20px 3px rgba(0,0,0,0.12)",
+                                                        "0px 7px 8px -4px rgba(0,0,0,0.2),0px 12px 17px 2px rgba(0,0,0,0.14),0px 5px 22px 4px rgba(0,0,0,0.12)",
+                                                        "0px 7px 8px -4px rgba(0,0,0,0.2),0px 13px 19px 2px rgba(0,0,0,0.14),0px 5px 24px 4px rgba(0,0,0,0.12)",
+                                                        "0px 7px 9px -4px rgba(0,0,0,0.2),0px 14px 21px 2px rgba(0,0,0,0.14),0px 5px 26px 4px rgba(0,0,0,0.12)",
+                                                        "0px 8px 9px -5px rgba(0,0,0,0.2),0px 15px 22px 2px rgba(0,0,0,0.14),0px 6px 28px 5px rgba(0,0,0,0.12)",
+                                                        "0px 8px 10px -5px rgba(0,0,0,0.2),0px 16px 24px 2px rgba(0,0,0,0.14),0px 6px 30px 5px rgba(0,0,0,0.12)",
+                                                        "0px 8px 11px -5px rgba(0,0,0,0.2),0px 17px 26px 2px rgba(0,0,0,0.14),0px 6px 32px 5px rgba(0,0,0,0.12)",
+                                                        "0px 9px 11px -5px rgba(0,0,0,0.2),0px 18px 28px 2px rgba(0,0,0,0.14),0px 7px 34px 6px rgba(0,0,0,0.12)",
+                                                        "0px 9px 12px -6px rgba(0,0,0,0.2),0px 19px 29px 2px rgba(0,0,0,0.14),0px 7px 36px 6px rgba(0,0,0,0.12)",
+                                                        "0px 10px 13px -6px rgba(0,0,0,0.2),0px 20px 31px 3px rgba(0,0,0,0.14),0px 8px 38px 7px rgba(0,0,0,0.12)",
+                                                        "0px 10px 13px -6px rgba(0,0,0,0.2),0px 21px 33px 3px rgba(0,0,0,0.14),0px 8px 40px 7px rgba(0,0,0,0.12)",
+                                                        "0px 10px 14px -6px rgba(0,0,0,0.2),0px 22px 35px 3px rgba(0,0,0,0.14),0px 8px 42px 7px rgba(0,0,0,0.12)",
+                                                        "0px 11px 14px -7px rgba(0,0,0,0.2),0px 23px 36px 3px rgba(0,0,0,0.14),0px 9px 44px 8px rgba(0,0,0,0.12)",
+                                                        "0px 11px 15px -7px rgba(0,0,0,0.2),0px 24px 38px 3px rgba(0,0,0,0.14),0px 9px 46px 8px rgba(0,0,0,0.12)",
+                                                      ],
+                                                      "shape": Object {
+                                                        "borderRadius": 4,
+                                                      },
+                                                      "spacing": [Function],
+                                                      "transitions": Object {
+                                                        "create": [Function],
+                                                        "duration": Object {
+                                                          "complex": 375,
+                                                          "enteringScreen": 225,
+                                                          "leavingScreen": 195,
+                                                          "short": 250,
+                                                          "shorter": 200,
+                                                          "shortest": 150,
+                                                          "standard": 300,
+                                                        },
+                                                        "easing": Object {
+                                                          "easeIn": "cubic-bezier(0.4, 0, 1, 1)",
+                                                          "easeInOut": "cubic-bezier(0.4, 0, 0.2, 1)",
+                                                          "easeOut": "cubic-bezier(0.0, 0, 0.2, 1)",
+                                                          "sharp": "cubic-bezier(0.4, 0, 0.6, 1)",
+                                                        },
+                                                        "getAutoHeightDuration": [Function],
+                                                      },
+                                                      "typography": Object {
+                                                        "body1": Object {
+                                                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                                          "fontSize": "1rem",
+                                                          "fontWeight": 400,
+                                                          "letterSpacing": "0.00938em",
+                                                          "lineHeight": 1.5,
+                                                        },
+                                                        "body2": Object {
+                                                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                                          "fontSize": "0.875rem",
+                                                          "fontWeight": 400,
+                                                          "letterSpacing": "0.01071em",
+                                                          "lineHeight": 1.43,
+                                                        },
+                                                        "button": Object {
+                                                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                                          "fontSize": "0.875rem",
+                                                          "fontWeight": 500,
+                                                          "letterSpacing": "0.02857em",
+                                                          "lineHeight": 1.75,
+                                                          "textTransform": "uppercase",
+                                                        },
+                                                        "caption": Object {
+                                                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                                          "fontSize": "0.75rem",
+                                                          "fontWeight": 400,
+                                                          "letterSpacing": "0.03333em",
+                                                          "lineHeight": 1.66,
+                                                        },
+                                                        "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                                        "fontSize": 14,
+                                                        "fontWeightBold": 700,
+                                                        "fontWeightLight": 300,
+                                                        "fontWeightMedium": 500,
+                                                        "fontWeightRegular": 400,
+                                                        "h1": Object {
+                                                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                                          "fontSize": "6rem",
+                                                          "fontWeight": 300,
+                                                          "letterSpacing": "-0.01562em",
+                                                          "lineHeight": 1.167,
+                                                        },
+                                                        "h2": Object {
+                                                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                                          "fontSize": "3.75rem",
+                                                          "fontWeight": 300,
+                                                          "letterSpacing": "-0.00833em",
+                                                          "lineHeight": 1.2,
+                                                        },
+                                                        "h3": Object {
+                                                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                                          "fontSize": "3rem",
+                                                          "fontWeight": 400,
+                                                          "letterSpacing": "0em",
+                                                          "lineHeight": 1.167,
+                                                        },
+                                                        "h4": Object {
+                                                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                                          "fontSize": "2.125rem",
+                                                          "fontWeight": 400,
+                                                          "letterSpacing": "0.00735em",
+                                                          "lineHeight": 1.235,
+                                                        },
+                                                        "h5": Object {
+                                                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                                          "fontSize": "1.5rem",
+                                                          "fontWeight": 400,
+                                                          "letterSpacing": "0em",
+                                                          "lineHeight": 1.334,
+                                                        },
+                                                        "h6": Object {
+                                                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                                          "fontSize": "1.25rem",
+                                                          "fontWeight": 500,
+                                                          "letterSpacing": "0.0075em",
+                                                          "lineHeight": 1.6,
+                                                        },
+                                                        "htmlFontSize": 16,
+                                                        "overline": Object {
+                                                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                                          "fontSize": "0.75rem",
+                                                          "fontWeight": 400,
+                                                          "letterSpacing": "0.08333em",
+                                                          "lineHeight": 2.66,
+                                                          "textTransform": "uppercase",
+                                                        },
+                                                        "pxToRem": [Function],
+                                                        "subtitle1": Object {
+                                                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                                          "fontSize": "1rem",
+                                                          "fontWeight": 400,
+                                                          "letterSpacing": "0.00938em",
+                                                          "lineHeight": 1.75,
+                                                        },
+                                                        "subtitle2": Object {
+                                                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                                          "fontSize": "0.875rem",
+                                                          "fontWeight": 500,
+                                                          "letterSpacing": "0.00714em",
+                                                          "lineHeight": 1.57,
+                                                        },
+                                                      },
+                                                      "zIndex": Object {
+                                                        "appBar": 1100,
+                                                        "drawer": 1200,
+                                                        "mobileStepper": 1000,
+                                                        "modal": 1300,
+                                                        "snackbar": 1400,
+                                                        "speedDial": 1050,
+                                                        "tooltip": 1500,
+                                                      },
+                                                    }
+                                                  }
+                                                  styles={
+                                                    Object {
+                                                      "@keyframes mui-auto-fill": Object {
+                                                        "from": Object {
+                                                          "display": "block",
+                                                        },
+                                                      },
+                                                      "@keyframes mui-auto-fill-cancel": Object {
+                                                        "from": Object {
+                                                          "display": "block",
+                                                        },
+                                                      },
+                                                    }
+                                                  }
+                                                >
+                                                  <EmotionGlobal
+                                                    styles={
+                                                      Object {
+                                                        "@keyframes mui-auto-fill": Object {
+                                                          "from": Object {
+                                                            "display": "block",
+                                                          },
+                                                        },
+                                                        "@keyframes mui-auto-fill-cancel": Object {
+                                                          "from": Object {
+                                                            "display": "block",
+                                                          },
+                                                        },
+                                                      }
+                                                    }
+                                                  />
+                                                </GlobalStyles>
+                                              </GlobalStyles>
+                                              <MuiOutlinedInputRoot
+                                                className="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd"
+                                                classes={
+                                                  Object {
+                                                    "input": "MuiOutlinedInput-input",
+                                                    "notchedOutline": null,
+                                                    "root": "MuiOutlinedInput-root",
+                                                  }
+                                                }
+                                                onClick={[Function]}
+                                                ownerState={
+                                                  Object {
+                                                    "aria-describedby": undefined,
+                                                    "autoComplete": undefined,
+                                                    "autoFocus": false,
+                                                    "classes": Object {
+                                                      "input": "MuiOutlinedInput-input",
+                                                      "notchedOutline": null,
+                                                      "root": "MuiOutlinedInput-root",
+                                                    },
+                                                    "color": "primary",
+                                                    "components": Object {
+                                                      "Input": Object {
+                                                        "$$typeof": Symbol(react.forward_ref),
+                                                        "__emotion_base": "input",
+                                                        "__emotion_forwardProp": [Function],
+                                                        "__emotion_real": [Circular],
+                                                        "__emotion_styles": Array [
+                                                          "label:MuiInputBase-input;",
+                                                          [Function],
+                                                          [Function],
+                                                          [Function],
+                                                          "label:MuiOutlinedInput-input;",
+                                                          [Function],
+                                                          [Function],
+                                                          [Function],
+                                                        ],
+                                                        "defaultProps": undefined,
+                                                        "render": [Function],
+                                                        "withComponent": [Function],
+                                                      },
+                                                      "Root": Object {
+                                                        "$$typeof": Symbol(react.forward_ref),
+                                                        "__emotion_base": "div",
+                                                        "__emotion_forwardProp": [Function],
+                                                        "__emotion_real": [Circular],
+                                                        "__emotion_styles": Array [
+                                                          "label:MuiInputBase-root;",
+                                                          [Function],
+                                                          [Function],
+                                                          [Function],
+                                                          [Function],
+                                                          "label:MuiOutlinedInput-root;",
+                                                          [Function],
+                                                          [Function],
+                                                          [Function],
+                                                          [Function],
+                                                        ],
+                                                        "defaultProps": undefined,
+                                                        "render": [Function],
+                                                        "withComponent": [Function],
+                                                      },
+                                                    },
+                                                    "defaultValue": undefined,
+                                                    "disabled": false,
+                                                    "endAdornment": <ForwardRef(InputAdornment)
+                                                      position="end"
+                                                    >
+                                                      <ForwardRef(IconButton)
+                                                        aria-label="Choose date"
+                                                        edge="end"
+                                                        onClick={[Function]}
+                                                      >
+                                                        <Memo />
+                                                      </ForwardRef(IconButton)>
+                                                    </ForwardRef(InputAdornment)>,
+                                                    "error": false,
+                                                    "focused": false,
+                                                    "formControl": Object {
+                                                      "adornedStart": false,
+                                                      "color": "primary",
+                                                      "disabled": false,
+                                                      "error": false,
+                                                      "filled": false,
+                                                      "focused": false,
+                                                      "fullWidth": true,
+                                                      "hiddenLabel": false,
+                                                      "onBlur": [Function],
+                                                      "onEmpty": [Function],
+                                                      "onFilled": [Function],
+                                                      "onFocus": [Function],
+                                                      "registerEffect": [Function],
+                                                      "required": false,
+                                                      "setAdornedStart": [Function],
+                                                      "size": "medium",
+                                                      "variant": "outlined",
+                                                    },
+                                                    "fullWidth": true,
+                                                    "hiddenLabel": false,
+                                                    "id": "date_field",
+                                                    "inputComponent": "input",
+                                                    "inputProps": Object {
+                                                      "disabled": undefined,
+                                                      "onBlur": [Function],
+                                                      "onChange": [Function],
+                                                      "onFocus": [Function],
+                                                      "placeholder": "mm/dd/yyyy",
+                                                      "readOnly": undefined,
+                                                      "type": "tel",
+                                                      "value": "",
+                                                    },
+                                                    "inputRef": [Function],
+                                                    "maxRows": undefined,
+                                                    "minRows": undefined,
+                                                    "multiline": false,
+                                                    "name": undefined,
+                                                    "onBlur": undefined,
+                                                    "onChange": undefined,
+                                                    "onFocus": undefined,
+                                                    "placeholder": undefined,
+                                                    "renderSuffix": [Function],
+                                                    "rows": undefined,
+                                                    "size": "medium",
+                                                    "startAdornment": undefined,
+                                                    "type": "text",
+                                                    "value": undefined,
+                                                  }
+                                                }
+                                              >
+                                                <Noop />
+                                                <div
+                                                  className="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd css-154xyx0-MuiInputBase-root-MuiOutlinedInput-root"
+                                                  onClick={[Function]}
+                                                >
+                                                  <MuiOutlinedInputInput
+                                                    aria-invalid={false}
+                                                    as="input"
+                                                    autoFocus={false}
+                                                    className="MuiOutlinedInput-input MuiInputBase-input MuiInputBase-inputAdornedEnd"
+                                                    id="date_field"
+                                                    onAnimationStart={[Function]}
+                                                    onBlur={[Function]}
+                                                    onChange={[Function]}
+                                                    onFocus={[Function]}
+                                                    ownerState={
+                                                      Object {
+                                                        "aria-describedby": undefined,
+                                                        "autoComplete": undefined,
+                                                        "autoFocus": false,
+                                                        "classes": Object {
+                                                          "input": "MuiOutlinedInput-input",
+                                                          "notchedOutline": null,
+                                                          "root": "MuiOutlinedInput-root",
+                                                        },
+                                                        "color": "primary",
+                                                        "components": Object {
+                                                          "Input": Object {
+                                                            "$$typeof": Symbol(react.forward_ref),
+                                                            "__emotion_base": "input",
+                                                            "__emotion_forwardProp": [Function],
+                                                            "__emotion_real": [Circular],
+                                                            "__emotion_styles": Array [
+                                                              "label:MuiInputBase-input;",
+                                                              [Function],
+                                                              [Function],
+                                                              [Function],
+                                                              "label:MuiOutlinedInput-input;",
+                                                              [Function],
+                                                              [Function],
+                                                              [Function],
+                                                            ],
+                                                            "defaultProps": undefined,
+                                                            "render": [Function],
+                                                            "withComponent": [Function],
+                                                          },
+                                                          "Root": Object {
+                                                            "$$typeof": Symbol(react.forward_ref),
+                                                            "__emotion_base": "div",
+                                                            "__emotion_forwardProp": [Function],
+                                                            "__emotion_real": [Circular],
+                                                            "__emotion_styles": Array [
+                                                              "label:MuiInputBase-root;",
+                                                              [Function],
+                                                              [Function],
+                                                              [Function],
+                                                              [Function],
+                                                              "label:MuiOutlinedInput-root;",
+                                                              [Function],
+                                                              [Function],
+                                                              [Function],
+                                                              [Function],
+                                                            ],
+                                                            "defaultProps": undefined,
+                                                            "render": [Function],
+                                                            "withComponent": [Function],
+                                                          },
+                                                        },
+                                                        "defaultValue": undefined,
+                                                        "disabled": false,
+                                                        "endAdornment": <ForwardRef(InputAdornment)
+                                                          position="end"
+                                                        >
+                                                          <ForwardRef(IconButton)
+                                                            aria-label="Choose date"
+                                                            edge="end"
+                                                            onClick={[Function]}
+                                                          >
+                                                            <Memo />
+                                                          </ForwardRef(IconButton)>
+                                                        </ForwardRef(InputAdornment)>,
+                                                        "error": false,
+                                                        "focused": false,
+                                                        "formControl": Object {
+                                                          "adornedStart": false,
+                                                          "color": "primary",
+                                                          "disabled": false,
+                                                          "error": false,
+                                                          "filled": false,
+                                                          "focused": false,
+                                                          "fullWidth": true,
+                                                          "hiddenLabel": false,
+                                                          "onBlur": [Function],
+                                                          "onEmpty": [Function],
+                                                          "onFilled": [Function],
+                                                          "onFocus": [Function],
+                                                          "registerEffect": [Function],
+                                                          "required": false,
+                                                          "setAdornedStart": [Function],
+                                                          "size": "medium",
+                                                          "variant": "outlined",
+                                                        },
+                                                        "fullWidth": true,
+                                                        "hiddenLabel": false,
+                                                        "id": "date_field",
+                                                        "inputComponent": "input",
+                                                        "inputProps": Object {
+                                                          "disabled": undefined,
+                                                          "onBlur": [Function],
+                                                          "onChange": [Function],
+                                                          "onFocus": [Function],
+                                                          "placeholder": "mm/dd/yyyy",
+                                                          "readOnly": undefined,
+                                                          "type": "tel",
+                                                          "value": "",
+                                                        },
+                                                        "inputRef": [Function],
+                                                        "maxRows": undefined,
+                                                        "minRows": undefined,
+                                                        "multiline": false,
+                                                        "name": undefined,
+                                                        "onBlur": undefined,
+                                                        "onChange": undefined,
+                                                        "onFocus": undefined,
+                                                        "placeholder": undefined,
+                                                        "renderSuffix": [Function],
+                                                        "rows": undefined,
+                                                        "size": "medium",
+                                                        "startAdornment": undefined,
+                                                        "type": "text",
+                                                        "value": undefined,
+                                                      }
+                                                    }
+                                                    placeholder="mm/dd/yyyy"
+                                                    required={false}
+                                                    type="tel"
+                                                    value=""
+                                                  >
+                                                    <Noop />
+                                                    <input
+                                                      aria-invalid={false}
+                                                      autoFocus={false}
+                                                      className="MuiOutlinedInput-input MuiInputBase-input MuiInputBase-inputAdornedEnd css-nxo287-MuiInputBase-input-MuiOutlinedInput-input"
+                                                      id="date_field"
+                                                      onAnimationStart={[Function]}
+                                                      onBlur={[Function]}
+                                                      onChange={[Function]}
+                                                      onFocus={[Function]}
+                                                      placeholder="mm/dd/yyyy"
+                                                      required={false}
+                                                      type="tel"
+                                                      value=""
+                                                    />
+                                                  </MuiOutlinedInputInput>
+                                                  <ForwardRef(InputAdornment)
+                                                    position="end"
+                                                  >
+                                                    <MuiInputAdornmentRoot
+                                                      as="div"
+                                                      className="MuiInputAdornment-root MuiInputAdornment-positionEnd MuiInputAdornment-outlined MuiInputAdornment-sizeMedium"
+                                                      ownerState={
+                                                        Object {
+                                                          "children": <ForwardRef(IconButton)
+                                                            aria-label="Choose date"
+                                                            edge="end"
+                                                            onClick={[Function]}
+                                                          >
+                                                            <Memo />
+                                                          </ForwardRef(IconButton)>,
+                                                          "disablePointerEvents": false,
+                                                          "hiddenLabel": false,
+                                                          "position": "end",
+                                                          "size": "medium",
+                                                          "variant": "outlined",
+                                                        }
+                                                      }
+                                                    >
+                                                      <Noop />
+                                                      <div
+                                                        className="MuiInputAdornment-root MuiInputAdornment-positionEnd MuiInputAdornment-outlined MuiInputAdornment-sizeMedium css-1laqsz7-MuiInputAdornment-root"
+                                                      >
+                                                        <ForwardRef(IconButton)
+                                                          aria-label="Choose date"
+                                                          edge="end"
+                                                          onClick={[Function]}
+                                                        >
+                                                          <MuiIconButtonRoot
+                                                            aria-label="Choose date"
+                                                            centerRipple={true}
+                                                            className="MuiIconButton-root MuiIconButton-edgeEnd MuiIconButton-sizeMedium"
+                                                            disabled={false}
+                                                            focusRipple={true}
+                                                            onClick={[Function]}
+                                                            ownerState={
+                                                              Object {
+                                                                "aria-label": "Choose date",
+                                                                "children": <Memo />,
+                                                                "color": "default",
+                                                                "disableFocusRipple": false,
+                                                                "disabled": false,
+                                                                "edge": "end",
+                                                                "onClick": [Function],
+                                                                "size": "medium",
+                                                              }
+                                                            }
+                                                          >
+                                                            <Noop />
+                                                            <ForwardRef(ButtonBase)
+                                                              aria-label="Choose date"
+                                                              centerRipple={true}
+                                                              className="MuiIconButton-root MuiIconButton-edgeEnd MuiIconButton-sizeMedium css-do3kej-MuiIconButton-root"
+                                                              disabled={false}
+                                                              focusRipple={true}
+                                                              onClick={[Function]}
+                                                            >
+                                                              <MuiButtonBaseRoot
+                                                                aria-label="Choose date"
+                                                                as="button"
+                                                                className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd MuiIconButton-sizeMedium css-do3kej-MuiIconButton-root"
+                                                                disabled={false}
+                                                                onBlur={[Function]}
+                                                                onClick={[Function]}
+                                                                onContextMenu={[Function]}
+                                                                onDragLeave={[Function]}
+                                                                onFocus={[Function]}
+                                                                onKeyDown={[Function]}
+                                                                onKeyUp={[Function]}
+                                                                onMouseDown={[Function]}
+                                                                onMouseLeave={[Function]}
+                                                                onMouseUp={[Function]}
+                                                                onTouchEnd={[Function]}
+                                                                onTouchMove={[Function]}
+                                                                onTouchStart={[Function]}
+                                                                ownerState={
+                                                                  Object {
+                                                                    "aria-label": "Choose date",
+                                                                    "centerRipple": true,
+                                                                    "children": <Memo />,
+                                                                    "className": "MuiIconButton-root MuiIconButton-edgeEnd MuiIconButton-sizeMedium css-do3kej-MuiIconButton-root",
+                                                                    "component": "button",
+                                                                    "disableRipple": false,
+                                                                    "disableTouchRipple": false,
+                                                                    "disabled": false,
+                                                                    "focusRipple": true,
+                                                                    "focusVisible": false,
+                                                                    "onClick": [Function],
+                                                                    "tabIndex": 0,
+                                                                  }
+                                                                }
+                                                                tabIndex={0}
+                                                                type="button"
+                                                              >
+                                                                <Noop />
+                                                                <button
+                                                                  aria-label="Choose date"
+                                                                  className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd MuiIconButton-sizeMedium css-1yq5fb3-MuiButtonBase-root-MuiIconButton-root"
+                                                                  disabled={false}
+                                                                  onBlur={[Function]}
+                                                                  onClick={[Function]}
+                                                                  onContextMenu={[Function]}
+                                                                  onDragLeave={[Function]}
+                                                                  onFocus={[Function]}
+                                                                  onKeyDown={[Function]}
+                                                                  onKeyUp={[Function]}
+                                                                  onMouseDown={[Function]}
+                                                                  onMouseLeave={[Function]}
+                                                                  onMouseUp={[Function]}
+                                                                  onTouchEnd={[Function]}
+                                                                  onTouchMove={[Function]}
+                                                                  onTouchStart={[Function]}
+                                                                  tabIndex={0}
+                                                                  type="button"
+                                                                >
+                                                                  <ForwardRef(CalendarIcon)>
+                                                                    <ForwardRef(SvgIcon)
+                                                                      data-testid="CalendarIcon"
+                                                                    >
+                                                                      <MuiSvgIconRoot
+                                                                        aria-hidden={true}
+                                                                        as="svg"
+                                                                        className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium"
+                                                                        data-testid="CalendarIcon"
+                                                                        focusable="false"
+                                                                        ownerState={
+                                                                          Object {
+                                                                            "children": <path
+                                                                              d="M17 12h-5v5h5v-5zM16 1v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2h-1V1h-2zm3 18H5V8h14v11z"
+                                                                            />,
+                                                                            "color": "inherit",
+                                                                            "component": "svg",
+                                                                            "data-testid": "CalendarIcon",
+                                                                            "fontSize": "medium",
+                                                                            "inheritViewBox": false,
+                                                                            "viewBox": "0 0 24 24",
+                                                                          }
+                                                                        }
+                                                                        viewBox="0 0 24 24"
+                                                                      >
+                                                                        <Noop />
+                                                                        <svg
+                                                                          aria-hidden={true}
+                                                                          className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                                                                          data-testid="CalendarIcon"
+                                                                          focusable="false"
+                                                                          viewBox="0 0 24 24"
+                                                                        >
+                                                                          <path
+                                                                            d="M17 12h-5v5h5v-5zM16 1v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2h-1V1h-2zm3 18H5V8h14v11z"
+                                                                          />
+                                                                        </svg>
+                                                                      </MuiSvgIconRoot>
+                                                                    </ForwardRef(SvgIcon)>
+                                                                  </ForwardRef(CalendarIcon)>
+                                                                  <ForwardRef(TouchRipple)
+                                                                    center={true}
+                                                                  >
+                                                                    <MuiTouchRippleRoot
+                                                                      className="MuiTouchRipple-root"
+                                                                    >
+                                                                      <Noop />
+                                                                      <span
+                                                                        className="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                                                                      >
+                                                                        <TransitionGroup
+                                                                          childFactory={[Function]}
+                                                                          component={null}
+                                                                          exit={true}
+                                                                        />
+                                                                      </span>
+                                                                    </MuiTouchRippleRoot>
+                                                                  </ForwardRef(TouchRipple)>
+                                                                </button>
+                                                              </MuiButtonBaseRoot>
+                                                            </ForwardRef(ButtonBase)>
+                                                          </MuiIconButtonRoot>
+                                                        </ForwardRef(IconButton)>
+                                                      </div>
+                                                    </MuiInputAdornmentRoot>
+                                                  </ForwardRef(InputAdornment)>
+                                                  <MuiOutlinedInputNotchedOutline
+                                                    className="MuiOutlinedInput-notchedOutline"
+                                                    notched={false}
+                                                  >
+                                                    <Noop />
+                                                    <NotchedOutline
+                                                      className="MuiOutlinedInput-notchedOutline css-rki20w-MuiOutlinedInput-notchedOutline"
+                                                      notched={false}
+                                                    >
+                                                      <Styled(fieldset)
+                                                        aria-hidden={true}
+                                                        className="MuiOutlinedInput-notchedOutline css-rki20w-MuiOutlinedInput-notchedOutline"
+                                                        ownerState={
+                                                          Object {
+                                                            "className": "MuiOutlinedInput-notchedOutline css-rki20w-MuiOutlinedInput-notchedOutline",
+                                                            "label": undefined,
+                                                            "notched": false,
+                                                          }
+                                                        }
+                                                      >
+                                                        <Noop />
+                                                        <fieldset
+                                                          aria-hidden={true}
+                                                          className="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+                                                        >
+                                                          <Styled(legend)
+                                                            ownerState={
+                                                              Object {
+                                                                "className": "MuiOutlinedInput-notchedOutline css-rki20w-MuiOutlinedInput-notchedOutline",
+                                                                "label": undefined,
+                                                                "notched": false,
+                                                              }
+                                                            }
+                                                          >
+                                                            <Noop />
+                                                            <legend
+                                                              className="css-nnbavb"
+                                                            >
+                                                              <span
+                                                                className="notranslate"
+                                                                dangerouslySetInnerHTML={
+                                                                  Object {
+                                                                    "__html": "&#8203;",
+                                                                  }
+                                                                }
+                                                              />
+                                                            </legend>
+                                                          </Styled(legend)>
+                                                        </fieldset>
+                                                      </Styled(fieldset)>
+                                                    </NotchedOutline>
+                                                  </MuiOutlinedInputNotchedOutline>
+                                                </div>
+                                              </MuiOutlinedInputRoot>
+                                            </ForwardRef(InputBase)>
+                                          </ForwardRef(OutlinedInput)>
+                                        </div>
+                                      </MuiFormControlRoot>
+                                    </ForwardRef(FormControl)>
+                                  </MuiTextFieldRoot>
+                                </ForwardRef(TextField)>
+                              </ForwardRef(KeyboardDateInput)>
+                              <PickersPopper
+                                anchorEl={null}
+                                onClose={[Function]}
+                                open={false}
+                                role="dialog"
+                              >
+                                <Styled(ForwardRef(Popper))
+                                  anchorEl={null}
+                                  open={false}
+                                  ownerState={
+                                    Object {
+                                      "PaperProps": undefined,
+                                      "PopperProps": undefined,
+                                      "TransitionComponent": undefined,
+                                      "anchorEl": null,
+                                      "children": <Picker
+                                        DateInputProps={
+                                          Object {
+                                            "disablePast": true,
+                                            "inputFormat": "P",
+                                            "mask": "__/__/____",
+                                            "maxDate": 2099-12-31T08:00:00.000Z,
+                                            "minDate": 1900-01-01T08:00:00.000Z,
+                                            "onChange": [Function],
+                                            "onError": [Function],
+                                            "open": false,
+                                            "openPicker": [Function],
+                                            "openTo": "year",
+                                            "rawValue": null,
+                                            "ref": null,
+                                            "renderInput": [Function],
+                                            "validationError": false,
+                                            "views": Array [
+                                              "year",
+                                              "month",
+                                              "day",
+                                            ],
+                                          }
+                                        }
+                                        ToolbarComponent={
+                                          Object {
+                                            "$$typeof": Symbol(react.forward_ref),
+                                            "render": [Function],
+                                          }
+                                        }
+                                        autoFocus={true}
+                                        date={null}
+                                        disablePast={true}
+                                        inputFormat="P"
+                                        isMobileKeyboardViewOpen={false}
+                                        mask="__/__/____"
+                                        maxDate={2099-12-31T08:00:00.000Z}
+                                        minDate={1900-01-01T08:00:00.000Z}
+                                        onDateChange={[Function]}
+                                        onError={[Function]}
+                                        openTo="year"
+                                        renderInput={[Function]}
+                                        toggleMobileKeyboardView={[Function]}
+                                        views={
+                                          Array [
+                                            "year",
+                                            "month",
+                                            "day",
+                                          ]
+                                        }
+                                      />,
+                                      "onClose": [Function],
+                                      "open": false,
+                                      "role": "dialog",
+                                    }
+                                  }
+                                  role="dialog"
+                                  transition={true}
+                                >
+                                  <Noop />
+                                  <ForwardRef(Popper)
+                                    anchorEl={null}
+                                    className="css-1ozefeb"
+                                    open={false}
+                                    role="dialog"
+                                    transition={true}
+                                  >
+                                    <ForwardRef(PopperUnstyled)
+                                      anchorEl={null}
+                                      className="css-1ozefeb"
+                                      direction="ltr"
+                                      open={false}
+                                      role="dialog"
+                                      transition={true}
+                                    />
+                                  </ForwardRef(Popper)>
+                                </Styled(ForwardRef(Popper))>
+                              </PickersPopper>
+                            </DesktopWrapper>
+                          </ForwardRef(DesktopDatePicker)>
+                        </ForwardRef(DatePicker)>
+                      </LocalizationProvider>
+                    </div>
+                  </MuiGridRoot>
+                </ForwardRef(Grid)>
+                <ForwardRef(Grid)
+                  alignSelf="flex-end"
+                  className="makeStyles-button-5"
+                  item={true}
+                >
+                  <MuiGridRoot
+                    as="div"
+                    className="MuiGrid-root MuiGrid-item makeStyles-button-5"
+                    ownerState={
+                      Object {
+                        "children": <ForwardRef(Button)
+                          disabled={true}
+                          id="save"
+                          onClick={[Function]}
+                          variant="contained"
+                        >
+                          Save
+                        </ForwardRef(Button)>,
+                        "className": "makeStyles-button-5",
+                        "columnSpacing": 0,
+                        "columns": 12,
+                        "container": false,
+                        "direction": "row",
+                        "item": true,
+                        "lg": false,
+                        "md": false,
+                        "rowSpacing": 0,
+                        "sm": false,
+                        "sx": Object {
+                          "alignSelf": "flex-end",
+                        },
+                        "wrap": "wrap",
+                        "xl": false,
+                        "xs": false,
+                        "zeroMinWidth": false,
+                      }
+                    }
+                    sx={
+                      Object {
+                        "alignSelf": "flex-end",
+                      }
+                    }
+                  >
+                    <Noop />
+                    <div
+                      className="MuiGrid-root MuiGrid-item makeStyles-button-5 css-1d2j7l7-MuiGrid-root"
+                    >
+                      <ForwardRef(Button)
+                        disabled={true}
+                        id="save"
+                        onClick={[Function]}
+                        variant="contained"
+                      >
+                        <MuiButtonRoot
+                          className=""
+                          classes={
+                            Object {
+                              "endIcon": "MuiButton-endIcon MuiButton-iconSizeMedium",
+                              "label": "MuiButton-label",
+                              "root": "MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium",
+                              "startIcon": "MuiButton-startIcon MuiButton-iconSizeMedium",
+                            }
+                          }
+                          component="button"
+                          disabled={true}
+                          focusRipple={true}
+                          focusVisibleClassName=""
+                          id="save"
+                          onClick={[Function]}
+                          ownerState={
+                            Object {
+                              "children": "Save",
+                              "color": "primary",
+                              "component": "button",
+                              "disableElevation": false,
+                              "disableFocusRipple": false,
+                              "disabled": true,
+                              "fullWidth": false,
+                              "id": "save",
+                              "onClick": [Function],
+                              "size": "medium",
+                              "type": undefined,
+                              "variant": "contained",
+                            }
+                          }
+                        >
+                          <Noop />
+                          <ForwardRef(ButtonBase)
+                            className=" css-1yu95zv-MuiButton-root"
+                            classes={
+                              Object {
+                                "endIcon": "MuiButton-endIcon MuiButton-iconSizeMedium",
+                                "label": "MuiButton-label",
+                                "root": "MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium",
+                                "startIcon": "MuiButton-startIcon MuiButton-iconSizeMedium",
+                              }
+                            }
+                            component="button"
+                            disabled={true}
+                            focusRipple={true}
+                            focusVisibleClassName=""
+                            id="save"
+                            onClick={[Function]}
+                          >
+                            <MuiButtonBaseRoot
+                              as="button"
+                              className="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButtonBase-root Mui-disabled  css-1yu95zv-MuiButton-root"
+                              classes={
+                                Object {
+                                  "endIcon": "MuiButton-endIcon MuiButton-iconSizeMedium",
+                                  "label": "MuiButton-label",
+                                  "root": "MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium",
+                                  "startIcon": "MuiButton-startIcon MuiButton-iconSizeMedium",
+                                }
+                              }
+                              disabled={true}
+                              id="save"
+                              onBlur={[Function]}
+                              onClick={[Function]}
+                              onContextMenu={[Function]}
+                              onDragLeave={[Function]}
+                              onFocus={[Function]}
+                              onKeyDown={[Function]}
+                              onKeyUp={[Function]}
+                              onMouseDown={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              onTouchEnd={[Function]}
+                              onTouchMove={[Function]}
+                              onTouchStart={[Function]}
+                              ownerState={
+                                Object {
+                                  "centerRipple": false,
+                                  "children": Array [
+                                    undefined,
+                                    "Save",
+                                    undefined,
+                                  ],
+                                  "className": " css-1yu95zv-MuiButton-root",
+                                  "classes": Object {
+                                    "endIcon": "MuiButton-endIcon MuiButton-iconSizeMedium",
+                                    "label": "MuiButton-label",
+                                    "root": "MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium",
+                                    "startIcon": "MuiButton-startIcon MuiButton-iconSizeMedium",
+                                  },
+                                  "component": "button",
+                                  "disableRipple": false,
+                                  "disableTouchRipple": false,
+                                  "disabled": true,
+                                  "focusRipple": true,
+                                  "focusVisible": false,
+                                  "focusVisibleClassName": "",
+                                  "id": "save",
+                                  "onClick": [Function],
+                                  "tabIndex": 0,
+                                  "type": undefined,
+                                }
+                              }
+                              tabIndex={-1}
+                              type="button"
+                            >
+                              <Noop />
+                              <button
+                                className="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButtonBase-root Mui-disabled  css-sghohy-MuiButtonBase-root-MuiButton-root"
+                                disabled={true}
+                                id="save"
+                                onBlur={[Function]}
+                                onClick={[Function]}
+                                onContextMenu={[Function]}
+                                onDragLeave={[Function]}
+                                onFocus={[Function]}
+                                onKeyDown={[Function]}
+                                onKeyUp={[Function]}
+                                onMouseDown={[Function]}
+                                onMouseLeave={[Function]}
+                                onMouseUp={[Function]}
+                                onTouchEnd={[Function]}
+                                onTouchMove={[Function]}
+                                onTouchStart={[Function]}
+                                tabIndex={-1}
+                                type="button"
+                              >
+                                Save
+                              </button>
+                            </MuiButtonBaseRoot>
+                          </ForwardRef(ButtonBase)>
+                        </MuiButtonRoot>
+                      </ForwardRef(Button)>
+                    </div>
+                  </MuiGridRoot>
+                </ForwardRef(Grid)>
+              </div>
+            </MuiGridRoot>
+          </ForwardRef(Grid)>
+        </div>
+      </MuiPaperRoot>
+    </ForwardRef(Paper)>
+  </AddToDo>
+</ThemeProvider>
+`;

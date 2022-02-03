@@ -1,0 +1,13 @@
+version: "3.7"
+services:
+  dropwizard_and_db:
+    image: todo_server:latest
+    build:
+      context: ../TaskListDW
+      dockerfile: Dockerfile
+
+  webui_nginx:
+    image: todo_client_proxy:latest
+    build:
+      context: ../TaskListUI
+      dockerfile: Dockerfile
