@@ -5,7 +5,7 @@ RUN mkdir -p /usr/src/app/TaskList/src
 COPY src /usr/src/app/TaskList/src
 COPY pom.xml /usr/src/app/TaskList/
 
-RUN mvn -f /usr/src/app/TaskList/pom.xml clean package
+RUN mvn -f /usr/src/app/TaskList/pom.xml clean package -DskipTests
 
 FROM openjdk:11 AS runner
 #we might want to strip the jdk image from anything not needed to decrease size and risks (no need for compiler here)
