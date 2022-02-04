@@ -4757,12 +4757,12 @@ exports[`Test add todo Render main page with an item 1`] = `
   >
     <Root>
       <ForwardRef(Container)
-        className="makeStyles-mainContainer-1"
+        className="makeStyles-mainContainer-24"
         maxWidth="md"
       >
         <MuiContainerRoot
           as="div"
-          className="MuiContainer-root MuiContainer-maxWidthMd makeStyles-mainContainer-1"
+          className="MuiContainer-root MuiContainer-maxWidthMd makeStyles-mainContainer-24"
           ownerState={
             Object {
               "children": <ForwardRef(Grid)
@@ -4771,7 +4771,7 @@ exports[`Test add todo Render main page with an item 1`] = `
               >
                 <ForwardRef(Grid)
                   alignItems="center"
-                  className="makeStyles-mainContainer-1"
+                  className="makeStyles-mainContainer-24"
                   container={true}
                   direction="row"
                   item={true}
@@ -4782,7 +4782,7 @@ exports[`Test add todo Render main page with an item 1`] = `
                     xs={1}
                   >
                     <ForwardRef(Typography)
-                      className="makeStyles-topText-4"
+                      className="makeStyles-topText-27"
                       variant="h5"
                     >
                       Tasker
@@ -4799,7 +4799,7 @@ exports[`Test add todo Render main page with an item 1`] = `
                     xs={2}
                   >
                     <ForwardRef(Typography)
-                      className="makeStyles-subText-5"
+                      className="makeStyles-subText-28"
                       variant="h6"
                     >
                       Techformist
@@ -4813,7 +4813,7 @@ exports[`Test add todo Render main page with an item 1`] = `
                     xs={12}
                   >
                     <ForwardRef(Grid)
-                      className="makeStyles-boxPadding-9"
+                      className="makeStyles-boxPadding-32"
                       item={true}
                       xs={11}
                     />
@@ -4835,7 +4835,7 @@ exports[`Test add todo Render main page with an item 1`] = `
                 </ForwardRef(Grid)>
                 <ForwardRef(Grid)
                   alignItems="flex-start"
-                  className="makeStyles-mainContainer-1"
+                  className="makeStyles-mainContainer-24"
                   container={true}
                   direction="row"
                   item={true}
@@ -4867,7 +4867,7 @@ exports[`Test add todo Render main page with an item 1`] = `
                   </ForwardRef(Grid)>
                 </ForwardRef(Grid)>
               </ForwardRef(Grid)>,
-              "className": "makeStyles-mainContainer-1",
+              "className": "makeStyles-mainContainer-24",
               "component": "div",
               "disableGutters": false,
               "fixed": false,
@@ -4877,7 +4877,7 @@ exports[`Test add todo Render main page with an item 1`] = `
         >
           <Noop />
           <div
-            className="MuiContainer-root MuiContainer-maxWidthMd makeStyles-mainContainer-1 css-xdmu94-MuiContainer-root"
+            className="MuiContainer-root MuiContainer-maxWidthMd makeStyles-mainContainer-24 css-xdmu94-MuiContainer-root"
           >
             <ForwardRef(Grid)
               container={true}
@@ -4891,7 +4891,7 @@ exports[`Test add todo Render main page with an item 1`] = `
                     "children": Array [
                       <ForwardRef(Grid)
                         alignItems="center"
-                        className="makeStyles-mainContainer-1"
+                        className="makeStyles-mainContainer-24"
                         container={true}
                         direction="row"
                         item={true}
@@ -4902,7 +4902,7 @@ exports[`Test add todo Render main page with an item 1`] = `
                           xs={1}
                         >
                           <ForwardRef(Typography)
-                            className="makeStyles-topText-4"
+                            className="makeStyles-topText-27"
                             variant="h5"
                           >
                             Tasker
@@ -4919,7 +4919,7 @@ exports[`Test add todo Render main page with an item 1`] = `
                           xs={2}
                         >
                           <ForwardRef(Typography)
-                            className="makeStyles-subText-5"
+                            className="makeStyles-subText-28"
                             variant="h6"
                           >
                             Techformist
@@ -4933,7 +4933,7 @@ exports[`Test add todo Render main page with an item 1`] = `
                           xs={12}
                         >
                           <ForwardRef(Grid)
-                            className="makeStyles-boxPadding-9"
+                            className="makeStyles-boxPadding-32"
                             item={true}
                             xs={11}
                           />
@@ -4955,7 +4955,7 @@ exports[`Test add todo Render main page with an item 1`] = `
                       </ForwardRef(Grid)>,
                       <ForwardRef(Grid)
                         alignItems="flex-start"
-                        className="makeStyles-mainContainer-1"
+                        className="makeStyles-mainContainer-24"
                         container={true}
                         direction="row"
                         item={true}
@@ -5011,7 +5011,7 @@ exports[`Test add todo Render main page with an item 1`] = `
                 >
                   <ForwardRef(Grid)
                     alignItems="center"
-                    className="makeStyles-mainContainer-1"
+                    className="makeStyles-mainContainer-24"
                     container={true}
                     direction="row"
                     item={true}
@@ -5019,7 +5019,7 @@ exports[`Test add todo Render main page with an item 1`] = `
                   >
                     <MuiGridRoot
                       as="div"
-                      className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 makeStyles-mainContainer-1"
+                      className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 makeStyles-mainContainer-24"
                       ownerState={
                         Object {
                           "children": Array [
@@ -5028,7 +5028,7 @@ exports[`Test add todo Render main page with an item 1`] = `
                               xs={1}
                             >
                               <ForwardRef(Typography)
-                                className="makeStyles-topText-4"
+                                className="makeStyles-topText-27"
                                 variant="h5"
                               >
                                 Tasker
@@ -5045,7 +5045,7 @@ exports[`Test add todo Render main page with an item 1`] = `
                               xs={2}
                             >
                               <ForwardRef(Typography)
-                                className="makeStyles-subText-5"
+                                className="makeStyles-subText-28"
                                 variant="h6"
                               >
                                 Techformist
@@ -5059,7 +5059,7 @@ exports[`Test add todo Render main page with an item 1`] = `
                               xs={12}
                             >
                               <ForwardRef(Grid)
-                                className="makeStyles-boxPadding-9"
+                                className="makeStyles-boxPadding-32"
                                 item={true}
                                 xs={11}
                               />
@@ -5079,7 +5079,7 @@ exports[`Test add todo Render main page with an item 1`] = `
                               </ForwardRef(Grid)>
                             </ForwardRef(Grid)>,
                           ],
-                          "className": "makeStyles-mainContainer-1",
+                          "className": "makeStyles-mainContainer-24",
                           "columnSpacing": 0,
                           "columns": 12,
                           "container": true,
@@ -5106,7 +5106,7 @@ exports[`Test add todo Render main page with an item 1`] = `
                     >
                       <Noop />
                       <div
-                        className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 makeStyles-mainContainer-1 css-1x4vn2y-MuiGrid-root"
+                        className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 makeStyles-mainContainer-24 css-1x4vn2y-MuiGrid-root"
                       >
                         <ForwardRef(Grid)
                           item={true}
@@ -5118,7 +5118,7 @@ exports[`Test add todo Render main page with an item 1`] = `
                             ownerState={
                               Object {
                                 "children": <ForwardRef(Typography)
-                                  className="makeStyles-topText-4"
+                                  className="makeStyles-topText-27"
                                   variant="h5"
                                 >
                                   Tasker
@@ -5146,17 +5146,17 @@ exports[`Test add todo Render main page with an item 1`] = `
                               className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-1 css-u78q51-MuiGrid-root"
                             >
                               <ForwardRef(Typography)
-                                className="makeStyles-topText-4"
+                                className="makeStyles-topText-27"
                                 variant="h5"
                               >
                                 <MuiTypographyRoot
                                   as="h5"
-                                  className="MuiTypography-root MuiTypography-h5 makeStyles-topText-4"
+                                  className="MuiTypography-root MuiTypography-h5 makeStyles-topText-27"
                                   ownerState={
                                     Object {
                                       "align": "inherit",
                                       "children": "Tasker",
-                                      "className": "makeStyles-topText-4",
+                                      "className": "makeStyles-topText-27",
                                       "color": undefined,
                                       "component": undefined,
                                       "gutterBottom": false,
@@ -5189,7 +5189,7 @@ exports[`Test add todo Render main page with an item 1`] = `
                                 >
                                   <Noop />
                                   <h5
-                                    className="MuiTypography-root MuiTypography-h5 makeStyles-topText-4 css-ag7rrr-MuiTypography-root"
+                                    className="MuiTypography-root MuiTypography-h5 makeStyles-topText-27 css-ag7rrr-MuiTypography-root"
                                   >
                                     Tasker
                                   </h5>
@@ -5243,7 +5243,7 @@ exports[`Test add todo Render main page with an item 1`] = `
                             ownerState={
                               Object {
                                 "children": <ForwardRef(Typography)
-                                  className="makeStyles-subText-5"
+                                  className="makeStyles-subText-28"
                                   variant="h6"
                                 >
                                   Techformist
@@ -5277,17 +5277,17 @@ exports[`Test add todo Render main page with an item 1`] = `
                               className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-2 css-7ml0tv-MuiGrid-root"
                             >
                               <ForwardRef(Typography)
-                                className="makeStyles-subText-5"
+                                className="makeStyles-subText-28"
                                 variant="h6"
                               >
                                 <MuiTypographyRoot
                                   as="h6"
-                                  className="MuiTypography-root MuiTypography-h6 makeStyles-subText-5"
+                                  className="MuiTypography-root MuiTypography-h6 makeStyles-subText-28"
                                   ownerState={
                                     Object {
                                       "align": "inherit",
                                       "children": "Techformist",
-                                      "className": "makeStyles-subText-5",
+                                      "className": "makeStyles-subText-28",
                                       "color": undefined,
                                       "component": undefined,
                                       "gutterBottom": false,
@@ -5320,7 +5320,7 @@ exports[`Test add todo Render main page with an item 1`] = `
                                 >
                                   <Noop />
                                   <h6
-                                    className="MuiTypography-root MuiTypography-h6 makeStyles-subText-5 css-2ulfj5-MuiTypography-root"
+                                    className="MuiTypography-root MuiTypography-h6 makeStyles-subText-28 css-2ulfj5-MuiTypography-root"
                                   >
                                     Techformist
                                   </h6>
@@ -5343,7 +5343,7 @@ exports[`Test add todo Render main page with an item 1`] = `
                               Object {
                                 "children": Array [
                                   <ForwardRef(Grid)
-                                    className="makeStyles-boxPadding-9"
+                                    className="makeStyles-boxPadding-32"
                                     item={true}
                                     xs={11}
                                   />,
@@ -5391,16 +5391,16 @@ exports[`Test add todo Render main page with an item 1`] = `
                               className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 css-1x4vn2y-MuiGrid-root"
                             >
                               <ForwardRef(Grid)
-                                className="makeStyles-boxPadding-9"
+                                className="makeStyles-boxPadding-32"
                                 item={true}
                                 xs={11}
                               >
                                 <MuiGridRoot
                                   as="div"
-                                  className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-11 makeStyles-boxPadding-9"
+                                  className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-11 makeStyles-boxPadding-32"
                                   ownerState={
                                     Object {
-                                      "className": "makeStyles-boxPadding-9",
+                                      "className": "makeStyles-boxPadding-32",
                                       "columnSpacing": 0,
                                       "columns": 12,
                                       "container": false,
@@ -5421,7 +5421,7 @@ exports[`Test add todo Render main page with an item 1`] = `
                                 >
                                   <Noop />
                                   <div
-                                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-11 makeStyles-boxPadding-9 css-ykovpn-MuiGrid-root"
+                                    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-11 makeStyles-boxPadding-32 css-ykovpn-MuiGrid-root"
                                   />
                                 </MuiGridRoot>
                               </ForwardRef(Grid)>
@@ -5640,7 +5640,7 @@ exports[`Test add todo Render main page with an item 1`] = `
                   </ForwardRef(Grid)>
                   <ForwardRef(Grid)
                     alignItems="flex-start"
-                    className="makeStyles-mainContainer-1"
+                    className="makeStyles-mainContainer-24"
                     container={true}
                     direction="row"
                     item={true}
@@ -5648,7 +5648,7 @@ exports[`Test add todo Render main page with an item 1`] = `
                   >
                     <MuiGridRoot
                       as="div"
-                      className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 makeStyles-mainContainer-1"
+                      className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 makeStyles-mainContainer-24"
                       ownerState={
                         Object {
                           "children": <ForwardRef(Grid)
@@ -5675,7 +5675,7 @@ exports[`Test add todo Render main page with an item 1`] = `
                               />
                             </ForwardRef(Paper)>
                           </ForwardRef(Grid)>,
-                          "className": "makeStyles-mainContainer-1",
+                          "className": "makeStyles-mainContainer-24",
                           "columnSpacing": 0,
                           "columns": 12,
                           "container": true,
@@ -5702,7 +5702,7 @@ exports[`Test add todo Render main page with an item 1`] = `
                     >
                       <Noop />
                       <div
-                        className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 makeStyles-mainContainer-1 css-ksia33-MuiGrid-root"
+                        className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 makeStyles-mainContainer-24 css-ksia33-MuiGrid-root"
                       >
                         <ForwardRef(Grid)
                           alignItems="flex-center"
@@ -5854,7 +5854,7 @@ exports[`Test add todo Render main page with an item 1`] = `
                                                     >
                                                       <ForwardRef(Grid)
                                                         alignItems="center"
-                                                        className="makeStyles-timeBlock-10"
+                                                        className="makeStyles-timeBlock-33"
                                                         container={true}
                                                         justifyContent="flex-start"
                                                       >
@@ -5862,7 +5862,7 @@ exports[`Test add todo Render main page with an item 1`] = `
                                                           item={true}
                                                         >
                                                           <Memo
-                                                            className="makeStyles-icon-11"
+                                                            className="makeStyles-icon-34"
                                                           />
                                                         </ForwardRef(Grid)>
                                                         <ForwardRef(Grid)
@@ -5950,7 +5950,7 @@ exports[`Test add todo Render main page with an item 1`] = `
                                                           >
                                                             <ForwardRef(Grid)
                                                               alignItems="center"
-                                                              className="makeStyles-timeBlock-10"
+                                                              className="makeStyles-timeBlock-33"
                                                               container={true}
                                                               justifyContent="flex-start"
                                                             >
@@ -5958,7 +5958,7 @@ exports[`Test add todo Render main page with an item 1`] = `
                                                                 item={true}
                                                               >
                                                                 <Memo
-                                                                  className="makeStyles-icon-11"
+                                                                  className="makeStyles-icon-34"
                                                                 />
                                                               </ForwardRef(Grid)>
                                                               <ForwardRef(Grid)
@@ -6041,7 +6041,7 @@ exports[`Test add todo Render main page with an item 1`] = `
                                                             >
                                                               <ForwardRef(Grid)
                                                                 alignItems="center"
-                                                                className="makeStyles-timeBlock-10"
+                                                                className="makeStyles-timeBlock-33"
                                                                 container={true}
                                                                 justifyContent="flex-start"
                                                               >
@@ -6049,7 +6049,7 @@ exports[`Test add todo Render main page with an item 1`] = `
                                                                   item={true}
                                                                 >
                                                                   <Memo
-                                                                    className="makeStyles-icon-11"
+                                                                    className="makeStyles-icon-34"
                                                                   />
                                                                 </ForwardRef(Grid)>
                                                                 <ForwardRef(Grid)
@@ -6111,7 +6111,7 @@ exports[`Test add todo Render main page with an item 1`] = `
                                                                   >
                                                                     <ForwardRef(Grid)
                                                                       alignItems="center"
-                                                                      className="makeStyles-timeBlock-10"
+                                                                      className="makeStyles-timeBlock-33"
                                                                       container={true}
                                                                       justifyContent="flex-start"
                                                                     >
@@ -6119,7 +6119,7 @@ exports[`Test add todo Render main page with an item 1`] = `
                                                                         item={true}
                                                                       >
                                                                         <Memo
-                                                                          className="makeStyles-icon-11"
+                                                                          className="makeStyles-icon-34"
                                                                         />
                                                                       </ForwardRef(Grid)>
                                                                       <ForwardRef(Grid)
@@ -6255,7 +6255,7 @@ exports[`Test add todo Render main page with an item 1`] = `
                                                                     Object {
                                                                       "children": <ForwardRef(Grid)
                                                                         alignItems="center"
-                                                                        className="makeStyles-timeBlock-10"
+                                                                        className="makeStyles-timeBlock-33"
                                                                         container={true}
                                                                         justifyContent="flex-start"
                                                                       >
@@ -6263,7 +6263,7 @@ exports[`Test add todo Render main page with an item 1`] = `
                                                                           item={true}
                                                                         >
                                                                           <Memo
-                                                                            className="makeStyles-icon-11"
+                                                                            className="makeStyles-icon-34"
                                                                           />
                                                                         </ForwardRef(Grid)>
                                                                         <ForwardRef(Grid)
@@ -6300,13 +6300,13 @@ exports[`Test add todo Render main page with an item 1`] = `
                                                                   >
                                                                     <ForwardRef(Grid)
                                                                       alignItems="center"
-                                                                      className="makeStyles-timeBlock-10"
+                                                                      className="makeStyles-timeBlock-33"
                                                                       container={true}
                                                                       justifyContent="flex-start"
                                                                     >
                                                                       <MuiGridRoot
                                                                         as="div"
-                                                                        className="MuiGrid-root MuiGrid-container makeStyles-timeBlock-10"
+                                                                        className="MuiGrid-root MuiGrid-container makeStyles-timeBlock-33"
                                                                         ownerState={
                                                                           Object {
                                                                             "children": Array [
@@ -6314,7 +6314,7 @@ exports[`Test add todo Render main page with an item 1`] = `
                                                                                 item={true}
                                                                               >
                                                                                 <Memo
-                                                                                  className="makeStyles-icon-11"
+                                                                                  className="makeStyles-icon-34"
                                                                                 />
                                                                               </ForwardRef(Grid)>,
                                                                               <ForwardRef(Grid)
@@ -6327,7 +6327,7 @@ exports[`Test add todo Render main page with an item 1`] = `
                                                                                 </ForwardRef(Typography)>
                                                                               </ForwardRef(Grid)>,
                                                                             ],
-                                                                            "className": "makeStyles-timeBlock-10",
+                                                                            "className": "makeStyles-timeBlock-33",
                                                                             "columnSpacing": 0,
                                                                             "columns": 12,
                                                                             "container": true,
@@ -6356,7 +6356,7 @@ exports[`Test add todo Render main page with an item 1`] = `
                                                                       >
                                                                         <Noop />
                                                                         <div
-                                                                          className="MuiGrid-root MuiGrid-container makeStyles-timeBlock-10 css-1e2bu2o-MuiGrid-root"
+                                                                          className="MuiGrid-root MuiGrid-container makeStyles-timeBlock-33 css-1e2bu2o-MuiGrid-root"
                                                                         >
                                                                           <ForwardRef(Grid)
                                                                             item={true}
@@ -6367,7 +6367,7 @@ exports[`Test add todo Render main page with an item 1`] = `
                                                                               ownerState={
                                                                                 Object {
                                                                                   "children": <Memo
-                                                                                    className="makeStyles-icon-11"
+                                                                                    className="makeStyles-icon-34"
                                                                                   />,
                                                                                   "columnSpacing": 0,
                                                                                   "columns": 12,
@@ -6392,16 +6392,16 @@ exports[`Test add todo Render main page with an item 1`] = `
                                                                                 className="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
                                                                               >
                                                                                 <ForwardRef(DateRangeOutlinedIcon)
-                                                                                  className="makeStyles-icon-11"
+                                                                                  className="makeStyles-icon-34"
                                                                                 >
                                                                                   <ForwardRef(SvgIcon)
-                                                                                    className="makeStyles-icon-11"
+                                                                                    className="makeStyles-icon-34"
                                                                                     data-testid="DateRangeOutlinedIcon"
                                                                                   >
                                                                                     <MuiSvgIconRoot
                                                                                       aria-hidden={true}
                                                                                       as="svg"
-                                                                                      className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-icon-11"
+                                                                                      className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-icon-34"
                                                                                       data-testid="DateRangeOutlinedIcon"
                                                                                       focusable="false"
                                                                                       ownerState={
@@ -6409,7 +6409,7 @@ exports[`Test add todo Render main page with an item 1`] = `
                                                                                           "children": <path
                                                                                             d="M7 11h2v2H7v-2zm14-5v14c0 1.1-.9 2-2 2H5c-1.11 0-2-.9-2-2l.01-14c0-1.1.88-2 1.99-2h1V2h2v2h8V2h2v2h1c1.1 0 2 .9 2 2zM5 8h14V6H5v2zm14 12V10H5v10h14zm-4-7h2v-2h-2v2zm-4 0h2v-2h-2v2z"
                                                                                           />,
-                                                                                          "className": "makeStyles-icon-11",
+                                                                                          "className": "makeStyles-icon-34",
                                                                                           "color": "inherit",
                                                                                           "component": "svg",
                                                                                           "data-testid": "DateRangeOutlinedIcon",
@@ -6423,7 +6423,7 @@ exports[`Test add todo Render main page with an item 1`] = `
                                                                                       <Noop />
                                                                                       <svg
                                                                                         aria-hidden={true}
-                                                                                        className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-icon-11 css-i4bv87-MuiSvgIcon-root"
+                                                                                        className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium makeStyles-icon-34 css-i4bv87-MuiSvgIcon-root"
                                                                                         data-testid="DateRangeOutlinedIcon"
                                                                                         focusable="false"
                                                                                         viewBox="0 0 24 24"

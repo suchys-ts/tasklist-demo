@@ -3,7 +3,7 @@ import {UPDATE_ALL_TODOS, UPDATE_TODO_STATE} from "../actions/Types";
 
 type todoState = {todos: TodoItem[]};
 
-const initialState:todoState = {
+export const initialState:todoState = {
     todos: [],
 }
 

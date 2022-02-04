@@ -31,6 +31,7 @@
     "@babel/preset-env": "^7.16.11",
     "@babel/polyfill": "^7.12.1",
     "@babel/preset-react": "^7.16.7",
+    "@babel/preset-typescript": "^7.16.7",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
     "@testing-library/user-event": "^7.2.1",
@@ -57,11 +58,15 @@
     "webpack-dev-server": "^4.7.3",
     "webpack-merge": "^5.8.0",
     "interpolate-html-plugin": "^4.0.0",
+    "jest": "^27.4.7",
     "jest-html-reporters": "^3.0.5",
     "jest-serializer-html": "^7.1.0",
     "enzyme": "^3.11.0",
     "enzyme-to-json": "^3.6.2",
-    "@wojtekmaj/enzyme-adapter-react-17": "^0.6.6"
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.6.6",
+    "redux-saga-test-plan": "^4.0.4",
+    "jest-mock-axios": "^4.5.0",
+    "sass-loader": "^12.4.0"
   },
   "scripts": {
     "start": "webpack-dev-server  --open --config webpack.dev.js",

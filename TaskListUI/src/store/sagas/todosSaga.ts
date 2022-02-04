@@ -7,7 +7,7 @@ import axios, {AxiosError, AxiosResponse} from "axios";
 const BASE_URL = "http://localhost:80/api/todos";
 
 
-const axiosCall = (method?:string, path?:string, data?:any):Promise<AxiosResponse|AxiosError> => {
+export const axiosCall = (method?:string, path?:string, data?:any):Promise<AxiosResponse|AxiosError> => {
     const url = path ? `${BASE_URL}${path}` : BASE_URL;
     if (method === 'post') {
         return axios.post(url, data)

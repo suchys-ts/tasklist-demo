@@ -11,9 +11,15 @@ import {allTodosSelector} from "../store/selectors/todosSelector";
 
 describe('Test add todo', () => {
 
-     beforeEach(() => {
+    beforeEach(() => {
         jest.resetAllMocks();
-    })
+        //we must mock dispatch as long as clicking on button or effect will call dispatch (fetching all)
+        jest.spyOn(reactRedux, 'useDispatch').mockReturnValue(jest.fn());
+    });
+
+    afterAll(()=> {
+        jest.resetAllMocks();
+    });
 
     //this is just an empty page after restart
     it('Render main page without any item', () => {
@@ -36,6 +42,7 @@ describe('Test add todo', () => {
 
     //it is possible to look if the items are rendered in proper place etc., but snapshot should give enough assurance that rendering is correct
     it('Render main page with an item', () => {
+
         const selectorSpy = jest.spyOn(reactRedux, 'useSelector');
         //mock the selector and return value (TodoItem[])
         selectorSpy.mockImplementation((selector) => {
