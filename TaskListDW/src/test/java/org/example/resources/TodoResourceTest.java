@@ -13,10 +13,12 @@ import javax.ws.rs.core.Response;
 import java.util.Arrays;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
 import static org.mockito.Mockito.when;
 
+/**
+ * Unit test
+ */
 @ExtendWith(DropwizardExtensionsSupport.class)
 class TodoResourceTest {
     private static final TodoDAO DAO = mock(TodoDAO.class);
